@@ -114,15 +114,16 @@ git push origin main
 
 ---
 
-## wp-automation（WordPress自動化ツール）
+## wp-automation（WordPress投稿ツール）
 
 ### 概要
-WordPress記事の作成を支援するPythonツール。対話式で記事を生成し、CTAを自動挿入。
+Claude Codeと連携してWordPress記事を投稿・更新するツール。
+API Keyは不要で、Claude Codeとの対話で記事を作成し、そのまま投稿できます。
 
 ### 機能
-- 対話式記事生成（個人の体験を反映）
-- 診断アプリへのCTA自動挿入
-- 下書き投稿（公開は手動で確認後）
+- WordPress記事の新規投稿（下書き/公開）
+- 既存記事の更新
+- 下書き一覧の取得
 
 ### セットアップ
 ```bash
@@ -141,10 +142,59 @@ WP_APP_PASSWORD=xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx
 DIAGNOSIS_APP_URL=https://gift-diagnosis.vercel.app/diagnose
 ```
 
-### 使い方
+**注意**: `.env` ファイルはGitHubには含まれません。別途共有が必要です。
+
+### 使い方（Claude Codeと組み合わせ）
+
+#### 1. 接続テスト
 ```bash
-python main.py
+python post_article.py --test
 ```
+
+#### 2. 記事を投稿（Claude Codeで記事を書いてもらい、投稿）
+```bash
+# 下書きとして投稿
+python post_article.py --title "彼氏への誕生日プレゼント10選" --content "<h2>はじめに</h2><p>本文...</p>"
+
+# 公開として投稿
+python post_article.py --title "タイトル" --content "<p>本文</p>" --status publish
+```
+
+#### 3. 記事を更新
+```bash
+# タイトルを更新
+python post_article.py --update 123 --title "新しいタイトル"
+
+# 本文を更新
+python post_article.py --update 123 --content "<p>新しい本文</p>"
+
+# 下書きを公開
+python post_article.py --update 123 --status publish
+```
+
+#### 4. 下書き一覧を確認
+```bash
+python post_article.py --list
+```
+
+### Claude Codeでの記事作成フロー
+
+1. Claude Codeに記事を書いてもらう：
+   ```
+   「彼氏への誕生日プレゼント10選」という記事を書いて。
+   診断アプリへのCTAも入れて。
+   ```
+
+2. Claude Codeが記事HTMLを生成
+
+3. 投稿コマンドを実行：
+   ```
+   「この記事をWordPressに下書きで投稿して」
+   ```
+
+4. Claude Codeが `post_article.py` を実行して投稿
+
+5. WordPress管理画面で確認後、公開
 
 ---
 
