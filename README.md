@@ -25,6 +25,7 @@
 ### 商品データを追加・編集する場合:
 「products.jsonに商品を追加したいです」
 「スプレッドシートで商品を管理したいです」
+「商品URLから自動で情報を入力したいです（AI判定機能）」
 
 ### 現在の状態を確認する場合:
 「現在の商品一覧を教えて」
@@ -98,14 +99,17 @@ diagnosis-app/
 
 商品データはGoogleスプレッドシートで管理できます。詳しくは[商品データのスプレッドシート管理](docs/SPREADSHEET_MANAGEMENT.md)を参照してください。
 
+**🎯 AI判定機能付き自動入力（最新・推奨）:**
+- 商品URLを入力するだけで、カテゴリ・贈る相手・シーンなどすべて自動入力
+- GitHub Tokenは安全に管理（次回以降も自動で引き継がれる）
+- セットアップガイド: [docs/AUTO_FILL_AI_SETUP.md](docs/AUTO_FILL_AI_SETUP.md)
+
 **クイックガイド:**
 1. `data/products.csv` をGoogleスプレッドシートにインポート
-2. スプレッドシートで編集
-3. CSV形式でエクスポートして `data/products.csv` に保存
-4. 以下のコマンドでアプリに反映:
-   ```bash
-   python3 scripts/csv_to_json.py
-   ```
+2. Apps Scriptに `scripts/auto-fill-ai.js` を設定
+3. 商品URLを入力して「自動入力（AI判定）」をクリック
+4. 「GitHubにプッシュ」でGitHubに保存
+5. ローカルで `python3 scripts/csv_to_json.py` を実行してアプリに反映
 
 #### 方法2: JSONファイルを直接編集
 
