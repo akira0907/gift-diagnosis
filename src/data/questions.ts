@@ -45,12 +45,12 @@ export const occasionQuestion: Question<Occasion> = {
     { id: "o1", label: "誕生日", value: "誕生日", icon: "🎂" },
     { id: "o2", label: "クリスマス", value: "クリスマス", icon: "🎄" },
     { id: "o3", label: "記念日", value: "記念日", icon: "💝" },
-    { id: "o4", label: "バレンタイン", value: "バレンタイン", icon: "🍫" },
-    { id: "o5", label: "ホワイトデー", value: "ホワイトデー", icon: "🍬" },
+    { id: "o4", label: "出産祝い", value: "出産祝い", icon: "👶" },
+    { id: "o5", label: "引っ越し祝い", value: "引っ越し祝い", icon: "🏠" },
     { id: "o6", label: "母の日", value: "母の日", icon: "🌸" },
     { id: "o7", label: "父の日", value: "父の日", icon: "👔" },
     { id: "o8", label: "お礼・感謝", value: "お礼", icon: "🙏" },
-    { id: "o9", label: "結婚・出産祝い", value: "結婚祝い", icon: "💒" },
+    { id: "o9", label: "結婚祝い", value: "結婚祝い", icon: "💒" },
   ],
 };
 

@@ -1,7 +1,29 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2024-01-01T00:00:00Z",
+  "lastUpdated": "2024-12-31T00:00:00Z",
   "products": [
+    {
+      "id": "prod_100",
+      "name": "ワゴン付きベンチ 玄関ベンチ 収納 木製 幅90cm",
+      "description": "ベンチ、収納、子供用デスクの3WAYで使える優れもの。収納が少ない都心暮らしや、子供のおもちゃ収納に最適です。",
+      "price": 13918,
+      "imageUrl": "/images/products/wagon-bench.jpg",
+      "category": "インテリア",
+      "recipients": ["妻", "夫", "友人女性", "友人男性", "同僚"],
+      "occasions": ["出産祝い", "引っ越し祝い", "誕生日", "クリスマス"],
+      "budgetRange": "10,000〜20,000円",
+      "affiliateLinks": [
+        {
+          "provider": "rakuten",
+          "url": "https://room.rakuten.co.jp/room_lifestyleselect/1700254827652879"
+        }
+      ],
+      "tags": ["インテリア", "収納", "ベンチ", "子供", "おもちゃ箱", "3WAY", "木製"],
+      "priority": 95,
+      "isPublished": true,
+      "createdAt": "2024-12-31T00:00:00Z",
+      "updatedAt": "2024-12-31T00:00:00Z"
+    },
     {
       "id": "prod_001",
       "name": "ハンドクリーム ギフトセット",
