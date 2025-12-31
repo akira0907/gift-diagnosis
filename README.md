@@ -24,6 +24,7 @@
 
 ### 商品データを追加・編集する場合:
 「products.jsonに商品を追加したいです」
+「スプレッドシートで商品を管理したいです」
 
 ### 現在の状態を確認する場合:
 「現在の商品一覧を教えて」
@@ -93,7 +94,22 @@ diagnosis-app/
 
 ### 商品データの編集
 
-`src/data/products.json` を編集して商品を追加・更新できます。
+#### 方法1: Googleスプレッドシートで管理（推奨）
+
+商品データはGoogleスプレッドシートで管理できます。詳しくは[商品データのスプレッドシート管理](docs/SPREADSHEET_MANAGEMENT.md)を参照してください。
+
+**クイックガイド:**
+1. `data/products.csv` をGoogleスプレッドシートにインポート
+2. スプレッドシートで編集
+3. CSV形式でエクスポートして `data/products.csv` に保存
+4. 以下のコマンドでアプリに反映:
+   ```bash
+   python3 scripts/csv_to_json.py
+   ```
+
+#### 方法2: JSONファイルを直接編集
+
+`src/data/products.json` を直接編集して商品を追加・更新することもできます。
 
 ```json
 {

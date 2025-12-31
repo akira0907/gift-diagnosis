@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2024-12-31T00:00:00Z",
+  "lastUpdated": "2025-12-31T19:31:59.166996Z",
   "products": [
     {
       "id": "prod_001",
@@ -9,8 +9,20 @@
       "price": 2970,
       "imageUrl": "/images/products/handcream.jpg",
       "category": "コスメ",
-      "recipients": ["彼女", "妻", "母", "友人女性", "同僚"],
-      "occasions": ["誕生日", "クリスマス", "ホワイトデー", "母の日", "お礼"],
+      "recipients": [
+        "彼女",
+        "妻",
+        "母",
+        "友人女性",
+        "同僚"
+      ],
+      "occasions": [
+        "誕生日",
+        "クリスマス",
+        "ホワイトデー",
+        "母の日",
+        "お礼"
+      ],
       "budgetRange": "〜3,000円",
       "affiliateLinks": [
         {
@@ -18,11 +30,17 @@
           "url": "https://www.amazon.co.jp/dp/B0DJMMJSPZ"
         }
       ],
-      "tags": ["コスメ", "ハンドクリーム", "女性向け", "ギフトセット", "ロクシタン"],
+      "tags": [
+        "コスメ",
+        "ハンドクリーム",
+        "女性向け",
+        "ギフトセット",
+        "ロクシタン"
+      ],
       "priority": 90,
       "isPublished": true,
-      "createdAt": "2024-01-01T00:00:00Z",
-      "updatedAt": "2024-12-31T00:00:00Z"
+      "createdAt": "2025-12-31T19:31:59.166383Z",
+      "updatedAt": "2025-12-31T19:31:59.166427Z"
     },
     {
       "id": "prod_002",
@@ -31,8 +49,19 @@
       "price": 2750,
       "imageUrl": "/images/products/pen.jpg",
       "category": "雑貨",
-      "recipients": ["彼氏", "夫", "父", "上司", "同僚"],
-      "occasions": ["誕生日", "父の日", "就職祝い", "退職祝い"],
+      "recipients": [
+        "彼氏",
+        "夫",
+        "父",
+        "上司",
+        "同僚"
+      ],
+      "occasions": [
+        "誕生日",
+        "父の日",
+        "就職祝い",
+        "退職祝い"
+      ],
       "budgetRange": "〜3,000円",
       "affiliateLinks": [
         {
@@ -40,11 +69,17 @@
           "url": "https://www.amazon.co.jp/dp/B01KZHW0Z0"
         }
       ],
-      "tags": ["ビジネス", "文房具", "男性向け", "高級", "パーカー"],
+      "tags": [
+        "ビジネス",
+        "文房具",
+        "男性向け",
+        "高級",
+        "パーカー"
+      ],
       "priority": 85,
       "isPublished": true,
-      "createdAt": "2024-01-01T00:00:00Z",
-      "updatedAt": "2024-12-31T00:00:00Z"
+      "createdAt": "2025-12-31T19:31:59.166446Z",
+      "updatedAt": "2025-12-31T19:31:59.166448Z"
     },
     {
       "id": "prod_014",
@@ -53,8 +88,16 @@
       "price": 2700,
       "imageUrl": "/images/products/sweets.jpg",
       "category": "グルメ",
-      "recipients": ["友人男性", "友人女性", "同僚", "子供"],
-      "occasions": ["お礼", "誕生日"],
+      "recipients": [
+        "友人男性",
+        "友人女性",
+        "同僚",
+        "子供"
+      ],
+      "occasions": [
+        "お礼",
+        "誕生日"
+      ],
       "budgetRange": "〜3,000円",
       "affiliateLinks": [
         {
@@ -62,11 +105,16 @@
           "url": "https://www.amazon.co.jp/s?k=ヨックモック+シガール+ギフト"
         }
       ],
-      "tags": ["グルメ", "お菓子", "詰め合わせ", "ヨックモック"],
+      "tags": [
+        "グルメ",
+        "お菓子",
+        "詰め合わせ",
+        "ヨックモック"
+      ],
       "priority": 75,
       "isPublished": true,
-      "createdAt": "2024-01-01T00:00:00Z",
-      "updatedAt": "2024-12-31T00:00:00Z"
+      "createdAt": "2025-12-31T19:31:59.166462Z",
+      "updatedAt": "2025-12-31T19:31:59.166464Z"
     },
     {
       "id": "prod_008",
@@ -75,8 +123,19 @@
       "price": 3850,
       "imageUrl": "/images/products/bath.jpg",
       "category": "コスメ",
-      "recipients": ["彼女", "妻", "母", "友人女性", "同僚"],
-      "occasions": ["誕生日", "お礼", "ホワイトデー", "母の日"],
+      "recipients": [
+        "彼女",
+        "妻",
+        "母",
+        "友人女性",
+        "同僚"
+      ],
+      "occasions": [
+        "誕生日",
+        "お礼",
+        "ホワイトデー",
+        "母の日"
+      ],
       "budgetRange": "3,000〜5,000円",
       "affiliateLinks": [
         {
@@ -88,11 +147,16 @@
           "url": "https://search.rakuten.co.jp/search/mall/入浴剤+ギフト+3000円/"
         }
       ],
-      "tags": ["コスメ", "入浴剤", "リラックス", "女性向け"],
+      "tags": [
+        "コスメ",
+        "入浴剤",
+        "リラックス",
+        "女性向け"
+      ],
       "priority": 82,
       "isPublished": true,
-      "createdAt": "2024-01-01T00:00:00Z",
-      "updatedAt": "2024-12-31T00:00:00Z"
+      "createdAt": "2025-12-31T19:31:59.166479Z",
+      "updatedAt": "2025-12-31T19:31:59.166481Z"
     },
     {
       "id": "prod_010",
@@ -101,8 +165,20 @@
       "price": 4320,
       "imageUrl": "/images/products/chocolate.jpg",
       "category": "グルメ",
-      "recipients": ["彼氏", "彼女", "上司", "同僚", "友人男性", "友人女性"],
-      "occasions": ["バレンタイン", "ホワイトデー", "お礼", "誕生日"],
+      "recipients": [
+        "彼氏",
+        "彼女",
+        "上司",
+        "同僚",
+        "友人男性",
+        "友人女性"
+      ],
+      "occasions": [
+        "バレンタイン",
+        "ホワイトデー",
+        "お礼",
+        "誕生日"
+      ],
       "budgetRange": "3,000〜5,000円",
       "affiliateLinks": [
         {
@@ -110,11 +186,17 @@
           "url": "https://www.amazon.co.jp/s?rh=n%3A4522771051%2Cp_89%3AGODIVA"
         }
       ],
-      "tags": ["グルメ", "チョコレート", "スイーツ", "高級", "ゴディバ"],
+      "tags": [
+        "グルメ",
+        "チョコレート",
+        "スイーツ",
+        "高級",
+        "ゴディバ"
+      ],
       "priority": 86,
       "isPublished": true,
-      "createdAt": "2024-01-01T00:00:00Z",
-      "updatedAt": "2024-12-31T00:00:00Z"
+      "createdAt": "2025-12-31T19:31:59.166495Z",
+      "updatedAt": "2025-12-31T19:31:59.166497Z"
     },
     {
       "id": "prod_003",
@@ -123,8 +205,19 @@
       "price": 4990,
       "imageUrl": "/images/products/aroma.jpg",
       "category": "インテリア",
-      "recipients": ["彼女", "妻", "母", "友人女性"],
-      "occasions": ["誕生日", "クリスマス", "記念日", "母の日", "お礼"],
+      "recipients": [
+        "彼女",
+        "妻",
+        "母",
+        "友人女性"
+      ],
+      "occasions": [
+        "誕生日",
+        "クリスマス",
+        "記念日",
+        "母の日",
+        "お礼"
+      ],
       "budgetRange": "3,000〜5,000円",
       "affiliateLinks": [
         {
@@ -136,11 +229,17 @@
           "url": "https://search.rakuten.co.jp/search/mall/無印良品+アロマディフューザー/"
         }
       ],
-      "tags": ["インテリア", "アロマ", "女性向け", "リラックス", "無印良品"],
+      "tags": [
+        "インテリア",
+        "アロマ",
+        "女性向け",
+        "リラックス",
+        "無印良品"
+      ],
       "priority": 88,
       "isPublished": true,
-      "createdAt": "2024-01-01T00:00:00Z",
-      "updatedAt": "2024-12-31T00:00:00Z"
+      "createdAt": "2025-12-31T19:31:59.166512Z",
+      "updatedAt": "2025-12-31T19:31:59.166513Z"
     },
     {
       "id": "prod_005",
@@ -149,8 +248,18 @@
       "price": 5500,
       "imageUrl": "/images/products/catalog.jpg",
       "category": "グルメ",
-      "recipients": ["父", "母", "上司", "同僚"],
-      "occasions": ["お礼", "退職祝い", "結婚祝い", "出産祝い"],
+      "recipients": [
+        "父",
+        "母",
+        "上司",
+        "同僚"
+      ],
+      "occasions": [
+        "お礼",
+        "退職祝い",
+        "結婚祝い",
+        "出産祝い"
+      ],
       "budgetRange": "5,000〜10,000円",
       "affiliateLinks": [
         {
@@ -162,11 +271,16 @@
           "url": "https://search.rakuten.co.jp/search/mall/グルメカタログギフト+5000円/"
         }
       ],
-      "tags": ["グルメ", "カタログギフト", "万人向け", "選べる"],
+      "tags": [
+        "グルメ",
+        "カタログギフト",
+        "万人向け",
+        "選べる"
+      ],
       "priority": 80,
       "isPublished": true,
-      "createdAt": "2024-01-01T00:00:00Z",
-      "updatedAt": "2024-12-31T00:00:00Z"
+      "createdAt": "2025-12-31T19:31:59.166527Z",
+      "updatedAt": "2025-12-31T19:31:59.166529Z"
     },
     {
       "id": "prod_006",
@@ -175,8 +289,19 @@
       "price": 5500,
       "imageUrl": "/images/products/organic-cosme.jpg",
       "category": "コスメ",
-      "recipients": ["彼女", "妻", "母", "友人女性"],
-      "occasions": ["誕生日", "クリスマス", "ホワイトデー", "母の日", "記念日"],
+      "recipients": [
+        "彼女",
+        "妻",
+        "母",
+        "友人女性"
+      ],
+      "occasions": [
+        "誕生日",
+        "クリスマス",
+        "ホワイトデー",
+        "母の日",
+        "記念日"
+      ],
       "budgetRange": "5,000〜10,000円",
       "affiliateLinks": [
         {
@@ -184,11 +309,17 @@
           "url": "https://www.amazon.co.jp/dp/B074PWCZZY"
         }
       ],
-      "tags": ["コスメ", "オーガニック", "スキンケア", "女性向け", "THANN"],
+      "tags": [
+        "コスメ",
+        "オーガニック",
+        "スキンケア",
+        "女性向け",
+        "THANN"
+      ],
       "priority": 87,
       "isPublished": true,
-      "createdAt": "2024-01-01T00:00:00Z",
-      "updatedAt": "2024-12-31T00:00:00Z"
+      "createdAt": "2025-12-31T19:31:59.166547Z",
+      "updatedAt": "2025-12-31T19:31:59.166549Z"
     },
     {
       "id": "prod_011",
@@ -197,8 +328,18 @@
       "price": 5500,
       "imageUrl": "/images/products/flower.jpg",
       "category": "花・植物",
-      "recipients": ["彼女", "妻", "母", "友人女性"],
-      "occasions": ["誕生日", "母の日", "記念日", "お礼"],
+      "recipients": [
+        "彼女",
+        "妻",
+        "母",
+        "友人女性"
+      ],
+      "occasions": [
+        "誕生日",
+        "母の日",
+        "記念日",
+        "お礼"
+      ],
       "budgetRange": "5,000〜10,000円",
       "affiliateLinks": [
         {
@@ -210,11 +351,17 @@
           "url": "https://search.rakuten.co.jp/search/mall/プリザーブドフラワー+ギフト/"
         }
       ],
-      "tags": ["花", "フラワー", "女性向け", "華やか", "プリザーブド"],
+      "tags": [
+        "花",
+        "フラワー",
+        "女性向け",
+        "華やか",
+        "プリザーブド"
+      ],
       "priority": 83,
       "isPublished": true,
-      "createdAt": "2024-01-01T00:00:00Z",
-      "updatedAt": "2024-12-31T00:00:00Z"
+      "createdAt": "2025-12-31T19:31:59.166566Z",
+      "updatedAt": "2025-12-31T19:31:59.166568Z"
     },
     {
       "id": "prod_015",
@@ -223,8 +370,17 @@
       "price": 5500,
       "imageUrl": "/images/products/sake.jpg",
       "category": "グルメ",
-      "recipients": ["父", "上司", "友人男性"],
-      "occasions": ["誕生日", "父の日", "お礼", "退職祝い"],
+      "recipients": [
+        "父",
+        "上司",
+        "友人男性"
+      ],
+      "occasions": [
+        "誕生日",
+        "父の日",
+        "お礼",
+        "退職祝い"
+      ],
       "budgetRange": "5,000〜10,000円",
       "affiliateLinks": [
         {
@@ -236,11 +392,17 @@
           "url": "https://search.rakuten.co.jp/search/mall/日本酒+飲み比べ/"
         }
       ],
-      "tags": ["グルメ", "日本酒", "お酒", "男性向け", "飲み比べ"],
+      "tags": [
+        "グルメ",
+        "日本酒",
+        "お酒",
+        "男性向け",
+        "飲み比べ"
+      ],
       "priority": 81,
       "isPublished": true,
-      "createdAt": "2024-01-01T00:00:00Z",
-      "updatedAt": "2024-12-31T00:00:00Z"
+      "createdAt": "2025-12-31T19:31:59.166585Z",
+      "updatedAt": "2025-12-31T19:31:59.166586Z"
     },
     {
       "id": "prod_004",
@@ -249,8 +411,19 @@
       "price": 7990,
       "imageUrl": "/images/products/earphone.jpg",
       "category": "ガジェット",
-      "recipients": ["彼氏", "彼女", "夫", "妻", "友人男性", "友人女性"],
-      "occasions": ["誕生日", "クリスマス", "記念日"],
+      "recipients": [
+        "彼氏",
+        "彼女",
+        "夫",
+        "妻",
+        "友人男性",
+        "友人女性"
+      ],
+      "occasions": [
+        "誕生日",
+        "クリスマス",
+        "記念日"
+      ],
       "budgetRange": "5,000〜10,000円",
       "affiliateLinks": [
         {
@@ -258,11 +431,17 @@
           "url": "https://www.amazon.co.jp/s?k=Anker+Soundcore+P40i"
         }
       ],
-      "tags": ["ガジェット", "イヤホン", "音楽", "Anker", "ノイズキャンセリング"],
+      "tags": [
+        "ガジェット",
+        "イヤホン",
+        "音楽",
+        "Anker",
+        "ノイズキャンセリング"
+      ],
       "priority": 92,
       "isPublished": true,
-      "createdAt": "2024-01-01T00:00:00Z",
-      "updatedAt": "2024-12-31T00:00:00Z"
+      "createdAt": "2025-12-31T19:31:59.166601Z",
+      "updatedAt": "2025-12-31T19:31:59.166602Z"
     },
     {
       "id": "prod_012",
@@ -271,8 +450,18 @@
       "price": 8800,
       "imageUrl": "/images/products/tie.jpg",
       "category": "ファッション",
-      "recipients": ["彼氏", "夫", "父", "上司"],
-      "occasions": ["誕生日", "父の日", "就職祝い", "クリスマス"],
+      "recipients": [
+        "彼氏",
+        "夫",
+        "父",
+        "上司"
+      ],
+      "occasions": [
+        "誕生日",
+        "父の日",
+        "就職祝い",
+        "クリスマス"
+      ],
       "budgetRange": "5,000〜10,000円",
       "affiliateLinks": [
         {
@@ -284,11 +473,17 @@
           "url": "https://search.rakuten.co.jp/search/mall/タケオキクチ+ネクタイ+ギフト/"
         }
       ],
-      "tags": ["ファッション", "ネクタイ", "ビジネス", "男性向け", "タケオキクチ"],
+      "tags": [
+        "ファッション",
+        "ネクタイ",
+        "ビジネス",
+        "男性向け",
+        "タケオキクチ"
+      ],
       "priority": 79,
       "isPublished": true,
-      "createdAt": "2024-01-01T00:00:00Z",
-      "updatedAt": "2024-12-31T00:00:00Z"
+      "createdAt": "2025-12-31T19:31:59.166616Z",
+      "updatedAt": "2025-12-31T19:31:59.166619Z"
     },
     {
       "id": "prod_007",
@@ -297,8 +492,17 @@
       "price": 11000,
       "imageUrl": "/images/products/wallet.jpg",
       "category": "ファッション",
-      "recipients": ["彼氏", "夫", "父"],
-      "occasions": ["誕生日", "クリスマス", "記念日", "父の日"],
+      "recipients": [
+        "彼氏",
+        "夫",
+        "父"
+      ],
+      "occasions": [
+        "誕生日",
+        "クリスマス",
+        "記念日",
+        "父の日"
+      ],
       "budgetRange": "10,000〜20,000円",
       "affiliateLinks": [
         {
@@ -306,11 +510,17 @@
           "url": "https://www.amazon.co.jp/dp/B0B516KQSN"
         }
       ],
-      "tags": ["ファッション", "財布", "レザー", "男性向け", "栃木レザー"],
+      "tags": [
+        "ファッション",
+        "財布",
+        "レザー",
+        "男性向け",
+        "栃木レザー"
+      ],
       "priority": 84,
       "isPublished": true,
-      "createdAt": "2024-01-01T00:00:00Z",
-      "updatedAt": "2024-12-31T00:00:00Z"
+      "createdAt": "2025-12-31T19:31:59.166636Z",
+      "updatedAt": "2025-12-31T19:31:59.166638Z"
     },
     {
       "id": "prod_100",
@@ -319,8 +529,19 @@
       "price": 13918,
       "imageUrl": "/images/products/wagon-bench.jpg",
       "category": "インテリア",
-      "recipients": ["妻", "夫", "友人女性", "友人男性", "同僚"],
-      "occasions": ["出産祝い", "引っ越し祝い", "誕生日", "クリスマス"],
+      "recipients": [
+        "妻",
+        "夫",
+        "友人女性",
+        "友人男性",
+        "同僚"
+      ],
+      "occasions": [
+        "出産祝い",
+        "引っ越し祝い",
+        "誕生日",
+        "クリスマス"
+      ],
       "budgetRange": "10,000〜20,000円",
       "affiliateLinks": [
         {
@@ -328,11 +549,19 @@
           "url": "https://room.rakuten.co.jp/room_lifestyleselect/1700254827652879"
         }
       ],
-      "tags": ["インテリア", "収納", "ベンチ", "子供", "おもちゃ箱", "3WAY", "木製"],
+      "tags": [
+        "インテリア",
+        "収納",
+        "ベンチ",
+        "子供",
+        "おもちゃ箱",
+        "3WAY",
+        "木製"
+      ],
       "priority": 95,
       "isPublished": true,
-      "createdAt": "2024-12-31T00:00:00Z",
-      "updatedAt": "2024-12-31T00:00:00Z"
+      "createdAt": "2025-12-31T19:31:59.166669Z",
+      "updatedAt": "2025-12-31T19:31:59.166670Z"
     },
     {
       "id": "prod_009",
@@ -341,8 +570,19 @@
       "price": 18980,
       "imageUrl": "/images/products/smartwatch.jpg",
       "category": "ガジェット",
-      "recipients": ["彼氏", "彼女", "夫", "妻", "父", "母"],
-      "occasions": ["誕生日", "クリスマス", "記念日"],
+      "recipients": [
+        "彼氏",
+        "彼女",
+        "夫",
+        "妻",
+        "父",
+        "母"
+      ],
+      "occasions": [
+        "誕生日",
+        "クリスマス",
+        "記念日"
+      ],
       "budgetRange": "10,000〜20,000円",
       "affiliateLinks": [
         {
@@ -350,11 +590,16 @@
           "url": "https://www.amazon.co.jp/stores/Xiaomiシャオミ/page/8139F517-E56F-45ED-869F-EE5B2780ED88"
         }
       ],
-      "tags": ["ガジェット", "スマートウォッチ", "健康", "Xiaomi"],
+      "tags": [
+        "ガジェット",
+        "スマートウォッチ",
+        "健康",
+        "Xiaomi"
+      ],
       "priority": 91,
       "isPublished": true,
-      "createdAt": "2024-01-01T00:00:00Z",
-      "updatedAt": "2024-12-31T00:00:00Z"
+      "createdAt": "2025-12-31T19:31:59.166685Z",
+      "updatedAt": "2025-12-31T19:31:59.166687Z"
     },
     {
       "id": "prod_013",
@@ -363,8 +608,19 @@
       "price": 33880,
       "imageUrl": "/images/products/dinner.jpg",
       "category": "体験",
-      "recipients": ["彼氏", "彼女", "夫", "妻", "父", "母"],
-      "occasions": ["記念日", "誕生日", "結婚祝い"],
+      "recipients": [
+        "彼氏",
+        "彼女",
+        "夫",
+        "妻",
+        "父",
+        "母"
+      ],
+      "occasions": [
+        "記念日",
+        "誕生日",
+        "結婚祝い"
+      ],
       "budgetRange": "30,000円〜",
       "affiliateLinks": [
         {
@@ -372,11 +628,17 @@
           "url": "https://www.amazon.co.jp/dp/B07Z4M396P"
         }
       ],
-      "tags": ["体験", "ディナー", "レストラン", "特別", "SOW EXPERIENCE"],
+      "tags": [
+        "体験",
+        "ディナー",
+        "レストラン",
+        "特別",
+        "SOW EXPERIENCE"
+      ],
       "priority": 88,
       "isPublished": true,
-      "createdAt": "2024-01-01T00:00:00Z",
-      "updatedAt": "2024-12-31T00:00:00Z"
+      "createdAt": "2025-12-31T19:31:59.166974Z",
+      "updatedAt": "2025-12-31T19:31:59.166980Z"
     }
   ]
 }
