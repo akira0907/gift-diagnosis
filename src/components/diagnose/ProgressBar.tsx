@@ -1,0 +1,27 @@
+"use client";
+
+interface ProgressBarProps {
+  current: number;
+  total: number;
+}
+
+export function ProgressBar({ current, total }: ProgressBarProps) {
+  const percentage = (current / total) * 100;
+
+  return (
+    <div className="w-full">
+      <div className="mb-2 flex justify-between text-sm text-secondary-600">
+        <span>
+          ステップ {current} / {total}
+        </span>
+        <span>{Math.round(percentage)}%</span>
+      </div>
+      <div className="h-2 w-full overflow-hidden rounded-full bg-secondary-200">
+        <div
+          className="h-full rounded-full bg-primary-500 transition-all duration-300 ease-out"
+          style={{ width: `${percentage}%` }}
+        />
+      </div>
+    </div>
+  );
+}
