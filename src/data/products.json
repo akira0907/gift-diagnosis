@@ -28,12 +28,12 @@
       "id": "prod_001",
       "name": "ロクシタン ハンドクリーム GIFT FOR YOU ギフトセット",
       "description": "ミニサイズのハンドクリーム4本ギフトセット。ホリデーだけの4種類の香りを楽しめるショッパーバッグ付き。",
-      "price": 3300,
+      "price": 2970,
       "imageUrl": "/images/products/handcream.jpg",
       "category": "コスメ",
       "recipients": ["彼女", "妻", "母", "友人女性", "同僚"],
       "occasions": ["誕生日", "クリスマス", "ホワイトデー", "母の日", "お礼"],
-      "budgetRange": "3,000〜5,000円",
+      "budgetRange": "〜3,000円",
       "affiliateLinks": [
         {
           "provider": "amazon",
@@ -50,12 +50,12 @@
       "id": "prod_002",
       "name": "パーカー ジョッター ボールペン ブラックCT",
       "description": "ビジネスシーンで活躍する、書き心地抜群の高級ボールペン。トレードマークの矢羽クリップが特徴。",
-      "price": 3300,
+      "price": 2750,
       "imageUrl": "/images/products/pen.jpg",
       "category": "雑貨",
       "recipients": ["彼氏", "夫", "父", "上司", "同僚"],
       "occasions": ["誕生日", "父の日", "就職祝い", "退職祝い"],
-      "budgetRange": "3,000〜5,000円",
+      "budgetRange": "〜3,000円",
       "affiliateLinks": [
         {
           "provider": "amazon",
