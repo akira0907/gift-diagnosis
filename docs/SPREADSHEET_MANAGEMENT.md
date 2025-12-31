@@ -136,12 +136,18 @@ A. CSVファイル上の行の順番がそのままアプリに反映されま�
 
 A. スプレッドシート上で該当する行を削除してください。または、`isPublished` を `FALSE` にすることで非公開にできます。
 
-## 🎯 Googleスプレッドシート連携の自動化（今後の拡張）
+## 🎯 Googleスプレッドシート連携の自動化
 
-将来的には、Google Apps Script（GAS）を使って以下のような自動化が可能です:
+Google Apps Script（GAS）を使って、スプレッドシートから直接GitHubにプッシュできます。
 
-1. スプレッドシート編集時に自動でGitHubにプッシュ
-2. GitHub Actionsで自動的にCSV→JSON変換
-3. Vercelで自動デプロイ
+### セットアップ
 
-必要に応じて実装を検討してください。
+詳しい手順は [Google Apps Script セットアップガイド](GOOGLE_APPS_SCRIPT_SETUP.md) を参照してください。
+
+**簡単な流れ:**
+1. Googleスプレッドシートを作成
+2. Apps Scriptエディタで `scripts/google-apps-script.js` の内容を貼り付け
+3. GitHub Personal Access Tokenを設定
+4. 「GitHubにプッシュ」ボタンでワンクリック更新
+
+これにより、スプレッドシートで編集した内容をワンクリックでGitHubに反映できるようになります。
