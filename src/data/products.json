@@ -26,8 +26,8 @@
     },
     {
       "id": "prod_001",
-      "name": "ハンドクリーム ギフトセット",
-      "description": "人気ブランドのハンドクリーム3本セット。保湿力抜群で香りも◎",
+      "name": "ロクシタン ハンドクリーム GIFT FOR YOU ギフトセット",
+      "description": "ミニサイズのハンドクリーム4本ギフトセット。ホリデーだけの4種類の香りを楽しめるショッパーバッグ付き。",
       "price": 3300,
       "imageUrl": "/images/products/handcream.jpg",
       "category": "コスメ",
@@ -37,44 +37,42 @@
       "affiliateLinks": [
         {
           "provider": "amazon",
-          "url": "https://www.amazon.co.jp/dp/example",
-          "tag": "your-tag-22"
+          "url": "https://www.amazon.co.jp/dp/B0DJMMJSPZ"
         }
       ],
-      "tags": ["コスメ", "ハンドクリーム", "女性向け", "ギフトセット"],
+      "tags": ["コスメ", "ハンドクリーム", "女性向け", "ギフトセット", "ロクシタン"],
       "priority": 90,
       "isPublished": true,
       "createdAt": "2024-01-01T00:00:00Z",
-      "updatedAt": "2024-01-01T00:00:00Z"
+      "updatedAt": "2024-12-31T00:00:00Z"
     },
     {
       "id": "prod_002",
-      "name": "高級ボールペン",
-      "description": "ビジネスシーンで活躍する、書き心地抜群の高級ボールペン",
-      "price": 5500,
+      "name": "パーカー ジョッター ボールペン ブラックCT",
+      "description": "ビジネスシーンで活躍する、書き心地抜群の高級ボールペン。トレードマークの矢羽クリップが特徴。",
+      "price": 3300,
       "imageUrl": "/images/products/pen.jpg",
       "category": "雑貨",
       "recipients": ["彼氏", "夫", "父", "上司", "同僚"],
       "occasions": ["誕生日", "父の日", "就職祝い", "退職祝い"],
-      "budgetRange": "5,000〜10,000円",
+      "budgetRange": "3,000〜5,000円",
       "affiliateLinks": [
         {
           "provider": "amazon",
-          "url": "https://www.amazon.co.jp/dp/example",
-          "tag": "your-tag-22"
+          "url": "https://www.amazon.co.jp/dp/B01KZHW0Z0"
         }
       ],
-      "tags": ["ビジネス", "文房具", "男性向け", "高級"],
+      "tags": ["ビジネス", "文房具", "男性向け", "高級", "パーカー"],
       "priority": 85,
       "isPublished": true,
       "createdAt": "2024-01-01T00:00:00Z",
-      "updatedAt": "2024-01-01T00:00:00Z"
+      "updatedAt": "2024-12-31T00:00:00Z"
     },
     {
       "id": "prod_003",
-      "name": "アロマディフューザー",
-      "description": "お部屋を癒しの空間に。静音設計でインテリアにも馴染むデザイン",
-      "price": 4800,
+      "name": "無印良品 水を使わないアロマディフューザー",
+      "description": "エッセンシャルオイルを原液のまま噴霧し、本来の香りを楽しめる。約4.5〜8畳対応、タイマー機能付き。",
+      "price": 4990,
       "imageUrl": "/images/products/aroma.jpg",
       "category": "インテリア",
       "recipients": ["彼女", "妻", "母", "友人女性"],
@@ -83,48 +81,46 @@
       "affiliateLinks": [
         {
           "provider": "amazon",
-          "url": "https://www.amazon.co.jp/dp/example",
-          "tag": "your-tag-22"
+          "url": "https://www.amazon.co.jp/s?k=無印良品+アロマディフューザー"
         },
         {
           "provider": "rakuten",
-          "url": "https://item.rakuten.co.jp/example"
+          "url": "https://search.rakuten.co.jp/search/mall/無印良品+アロマディフューザー/"
         }
       ],
-      "tags": ["インテリア", "アロマ", "女性向け", "リラックス"],
+      "tags": ["インテリア", "アロマ", "女性向け", "リラックス", "無印良品"],
       "priority": 88,
       "isPublished": true,
       "createdAt": "2024-01-01T00:00:00Z",
-      "updatedAt": "2024-01-01T00:00:00Z"
+      "updatedAt": "2024-12-31T00:00:00Z"
     },
     {
       "id": "prod_004",
-      "name": "ワイヤレスイヤホン",
-      "description": "高音質＆ノイズキャンセリング搭載。通勤・運動どちらにも最適",
-      "price": 12000,
+      "name": "Anker Soundcore P40i ワイヤレスイヤホン",
+      "description": "ノイズキャンセリング、マルチポイント対応。60時間バッテリーで1日中使える高コスパモデル。",
+      "price": 7990,
       "imageUrl": "/images/products/earphone.jpg",
       "category": "ガジェット",
       "recipients": ["彼氏", "彼女", "夫", "妻", "友人男性", "友人女性"],
       "occasions": ["誕生日", "クリスマス", "記念日"],
-      "budgetRange": "10,000〜20,000円",
+      "budgetRange": "5,000〜10,000円",
       "affiliateLinks": [
         {
           "provider": "amazon",
-          "url": "https://www.amazon.co.jp/dp/example",
-          "tag": "your-tag-22"
+          "url": "https://www.amazon.co.jp/s?k=Anker+Soundcore+P40i"
         }
       ],
-      "tags": ["ガジェット", "イヤホン", "音楽", "テクノロジー"],
+      "tags": ["ガジェット", "イヤホン", "音楽", "Anker", "ノイズキャンセリング"],
       "priority": 92,
       "isPublished": true,
       "createdAt": "2024-01-01T00:00:00Z",
-      "updatedAt": "2024-01-01T00:00:00Z"
+      "updatedAt": "2024-12-31T00:00:00Z"
     },
     {
       "id": "prod_005",
-      "name": "グルメカタログギフト",
-      "description": "全国の美味しいものを自分で選べる。贈り物に迷ったらコレ",
-      "price": 5000,
+      "name": "やさしいごちそう グルメカタログギフト 緑のえだまめ",
+      "description": "4年連続ギフト大賞受賞。全国の美味しいものを自分で選べる人気のカタログギフト。",
+      "price": 5500,
       "imageUrl": "/images/products/catalog.jpg",
       "category": "グルメ",
       "recipients": ["父", "母", "上司", "同僚"],
@@ -133,21 +129,24 @@
       "affiliateLinks": [
         {
           "provider": "amazon",
-          "url": "https://www.amazon.co.jp/dp/example",
-          "tag": "your-tag-22"
+          "url": "https://www.amazon.co.jp/s?k=グルメカタログギフト+5000円"
+        },
+        {
+          "provider": "rakuten",
+          "url": "https://search.rakuten.co.jp/search/mall/グルメカタログギフト+5000円/"
         }
       ],
       "tags": ["グルメ", "カタログギフト", "万人向け", "選べる"],
       "priority": 80,
       "isPublished": true,
       "createdAt": "2024-01-01T00:00:00Z",
-      "updatedAt": "2024-01-01T00:00:00Z"
+      "updatedAt": "2024-12-31T00:00:00Z"
     },
     {
       "id": "prod_006",
-      "name": "オーガニックコスメセット",
-      "description": "肌に優しいオーガニック成分配合。スキンケアの基本が揃うセット",
-      "price": 8500,
+      "name": "THANN バス&ボディ トライアルギフトセット",
+      "description": "タイ生まれのナチュラルスキンケアブランド。シャンプー・ボディケア5点セット、ギフトボックス入り。",
+      "price": 5500,
       "imageUrl": "/images/products/organic-cosme.jpg",
       "category": "コスメ",
       "recipients": ["彼女", "妻", "母", "友人女性"],
@@ -156,21 +155,20 @@
       "affiliateLinks": [
         {
           "provider": "amazon",
-          "url": "https://www.amazon.co.jp/dp/example",
-          "tag": "your-tag-22"
+          "url": "https://www.amazon.co.jp/dp/B074PWCZZY"
         }
       ],
-      "tags": ["コスメ", "オーガニック", "スキンケア", "女性向け"],
+      "tags": ["コスメ", "オーガニック", "スキンケア", "女性向け", "THANN"],
       "priority": 87,
       "isPublished": true,
       "createdAt": "2024-01-01T00:00:00Z",
-      "updatedAt": "2024-01-01T00:00:00Z"
+      "updatedAt": "2024-12-31T00:00:00Z"
     },
     {
       "id": "prod_007",
-      "name": "レザー財布",
-      "description": "上質な本革を使用した長財布。エイジングを楽しめる逸品",
-      "price": 15000,
+      "name": "栃木レザー 長財布 ラウンドファスナー 本革",
+      "description": "日本が世界に誇る栃木レザーを使用。使い込むほど味わい深い色艶が生まれる経年変化を楽しめる逸品。",
+      "price": 11000,
       "imageUrl": "/images/products/wallet.jpg",
       "category": "ファッション",
       "recipients": ["彼氏", "夫", "父"],
@@ -179,21 +177,20 @@
       "affiliateLinks": [
         {
           "provider": "amazon",
-          "url": "https://www.amazon.co.jp/dp/example",
-          "tag": "your-tag-22"
+          "url": "https://www.amazon.co.jp/dp/B0B516KQSN"
         }
       ],
-      "tags": ["ファッション", "財布", "レザー", "男性向け", "高級"],
+      "tags": ["ファッション", "財布", "レザー", "男性向け", "栃木レザー"],
       "priority": 84,
       "isPublished": true,
       "createdAt": "2024-01-01T00:00:00Z",
-      "updatedAt": "2024-01-01T00:00:00Z"
+      "updatedAt": "2024-12-31T00:00:00Z"
     },
     {
       "id": "prod_008",
-      "name": "高級入浴剤セット",
-      "description": "一日の疲れを癒す、贅沢なバスタイムを演出する入浴剤セット",
-      "price": 3800,
+      "name": "CLAYD 入浴剤 ギフトセット ONETIME",
+      "description": "天然クレイを使用した高級入浴剤。一日の疲れを癒す、贅沢なバスタイムを演出。",
+      "price": 3850,
       "imageUrl": "/images/products/bath.jpg",
       "category": "コスメ",
       "recipients": ["彼女", "妻", "母", "友人女性", "同僚"],
@@ -202,44 +199,46 @@
       "affiliateLinks": [
         {
           "provider": "amazon",
-          "url": "https://www.amazon.co.jp/dp/example",
-          "tag": "your-tag-22"
+          "url": "https://www.amazon.co.jp/s?k=入浴剤+ギフト+高級"
+        },
+        {
+          "provider": "rakuten",
+          "url": "https://search.rakuten.co.jp/search/mall/入浴剤+ギフト+3000円/"
         }
       ],
       "tags": ["コスメ", "入浴剤", "リラックス", "女性向け"],
       "priority": 82,
       "isPublished": true,
       "createdAt": "2024-01-01T00:00:00Z",
-      "updatedAt": "2024-01-01T00:00:00Z"
+      "updatedAt": "2024-12-31T00:00:00Z"
     },
     {
       "id": "prod_009",
-      "name": "スマートウォッチ",
-      "description": "健康管理から通知確認まで。日常をスマートにするウェアラブル",
-      "price": 25000,
+      "name": "Xiaomi Watch S3 スマートウォッチ",
+      "description": "ファッション性の高いデザインで多様なスポーツモードを搭載。健康管理から通知確認まで日常をスマートに。",
+      "price": 18980,
       "imageUrl": "/images/products/smartwatch.jpg",
       "category": "ガジェット",
       "recipients": ["彼氏", "彼女", "夫", "妻", "父", "母"],
       "occasions": ["誕生日", "クリスマス", "記念日"],
-      "budgetRange": "20,000〜30,000円",
+      "budgetRange": "10,000〜20,000円",
       "affiliateLinks": [
         {
           "provider": "amazon",
-          "url": "https://www.amazon.co.jp/dp/example",
-          "tag": "your-tag-22"
+          "url": "https://www.amazon.co.jp/stores/Xiaomiシャオミ/page/8139F517-E56F-45ED-869F-EE5B2780ED88"
         }
       ],
-      "tags": ["ガジェット", "スマートウォッチ", "健康", "テクノロジー"],
+      "tags": ["ガジェット", "スマートウォッチ", "健康", "Xiaomi"],
       "priority": 91,
       "isPublished": true,
       "createdAt": "2024-01-01T00:00:00Z",
-      "updatedAt": "2024-01-01T00:00:00Z"
+      "updatedAt": "2024-12-31T00:00:00Z"
     },
     {
       "id": "prod_010",
-      "name": "高級チョコレートアソート",
-      "description": "ショコラティエが手がける本格派。特別な日に贈りたい味わい",
-      "price": 4200,
+      "name": "ゴディバ ゴールドコレクション チョコレートアソート",
+      "description": "ショコラティエが手がける本格派チョコレート。特別な日に贈りたい高級感のある味わい。",
+      "price": 4320,
       "imageUrl": "/images/products/chocolate.jpg",
       "category": "グルメ",
       "recipients": ["彼氏", "彼女", "上司", "同僚", "友人男性", "友人女性"],
@@ -248,20 +247,19 @@
       "affiliateLinks": [
         {
           "provider": "amazon",
-          "url": "https://www.amazon.co.jp/dp/example",
-          "tag": "your-tag-22"
+          "url": "https://www.amazon.co.jp/s?rh=n%3A4522771051%2Cp_89%3AGODIVA"
         }
       ],
-      "tags": ["グルメ", "チョコレート", "スイーツ", "高級"],
+      "tags": ["グルメ", "チョコレート", "スイーツ", "高級", "ゴディバ"],
       "priority": 86,
       "isPublished": true,
       "createdAt": "2024-01-01T00:00:00Z",
-      "updatedAt": "2024-01-01T00:00:00Z"
+      "updatedAt": "2024-12-31T00:00:00Z"
     },
     {
       "id": "prod_011",
-      "name": "フラワーアレンジメント",
-      "description": "プロのフローリストが手がける、季節の花を使った華やかなアレンジ",
+      "name": "日比谷花壇 プリザーブドフラワー ギフト",
+      "description": "プロのフローリストが手がける、長く楽しめるプリザーブドフラワーアレンジメント。",
       "price": 5500,
       "imageUrl": "/images/products/flower.jpg",
       "category": "花・植物",
@@ -271,21 +269,24 @@
       "affiliateLinks": [
         {
           "provider": "amazon",
-          "url": "https://www.amazon.co.jp/dp/example",
-          "tag": "your-tag-22"
+          "url": "https://www.amazon.co.jp/gp/bestsellers/kitchen/10338333051"
+        },
+        {
+          "provider": "rakuten",
+          "url": "https://search.rakuten.co.jp/search/mall/プリザーブドフラワー+ギフト/"
         }
       ],
-      "tags": ["花", "フラワー", "女性向け", "華やか"],
+      "tags": ["花", "フラワー", "女性向け", "華やか", "プリザーブド"],
       "priority": 83,
       "isPublished": true,
       "createdAt": "2024-01-01T00:00:00Z",
-      "updatedAt": "2024-01-01T00:00:00Z"
+      "updatedAt": "2024-12-31T00:00:00Z"
     },
     {
       "id": "prod_012",
-      "name": "ネクタイ＆カフスセット",
-      "description": "ビジネスマンに嬉しい、上品なネクタイとカフスのセット",
-      "price": 8000,
+      "name": "タケオキクチ ネクタイ＆タイバー BOXセット",
+      "description": "ビジネスマンに嬉しい、上品なネクタイとタイバーのギフトボックス入りセット。",
+      "price": 8800,
       "imageUrl": "/images/products/tie.jpg",
       "category": "ファッション",
       "recipients": ["彼氏", "夫", "父", "上司"],
@@ -294,21 +295,24 @@
       "affiliateLinks": [
         {
           "provider": "amazon",
-          "url": "https://www.amazon.co.jp/dp/example",
-          "tag": "your-tag-22"
+          "url": "https://www.amazon.co.jp/gp/most-gifted/apparel/2231261051"
+        },
+        {
+          "provider": "rakuten",
+          "url": "https://search.rakuten.co.jp/search/mall/タケオキクチ+ネクタイ+ギフト/"
         }
       ],
-      "tags": ["ファッション", "ネクタイ", "ビジネス", "男性向け"],
+      "tags": ["ファッション", "ネクタイ", "ビジネス", "男性向け", "タケオキクチ"],
       "priority": 79,
       "isPublished": true,
       "createdAt": "2024-01-01T00:00:00Z",
-      "updatedAt": "2024-01-01T00:00:00Z"
+      "updatedAt": "2024-12-31T00:00:00Z"
     },
     {
       "id": "prod_013",
-      "name": "体験ギフト（ディナー）",
-      "description": "特別な夜を演出する高級レストランのペアディナー券",
-      "price": 30000,
+      "name": "SOW EXPERIENCE レストランギフト（BROWN）",
+      "description": "老舗や名店から選んで2人で食事ができる体験ギフト。鉄板焼、懐石、フレンチなど約45店から選択可能。",
+      "price": 33880,
       "imageUrl": "/images/products/dinner.jpg",
       "category": "体験",
       "recipients": ["彼氏", "彼女", "夫", "妻", "父", "母"],
@@ -317,21 +321,20 @@
       "affiliateLinks": [
         {
           "provider": "amazon",
-          "url": "https://www.amazon.co.jp/dp/example",
-          "tag": "your-tag-22"
+          "url": "https://www.amazon.co.jp/dp/B07Z4M396P"
         }
       ],
-      "tags": ["体験", "ディナー", "レストラン", "特別"],
+      "tags": ["体験", "ディナー", "レストラン", "特別", "SOW EXPERIENCE"],
       "priority": 88,
       "isPublished": true,
       "createdAt": "2024-01-01T00:00:00Z",
-      "updatedAt": "2024-01-01T00:00:00Z"
+      "updatedAt": "2024-12-31T00:00:00Z"
     },
     {
       "id": "prod_014",
-      "name": "お菓子の詰め合わせ",
-      "description": "子どもも大人も喜ぶ、人気お菓子のバラエティセット",
-      "price": 2500,
+      "name": "ヨックモック シガール プティ サンク デリス 詰め合わせ",
+      "description": "バターの風味豊かでサクサクな洋菓子詰め合わせ。子どもも大人も喜ぶ定番ギフト。",
+      "price": 2700,
       "imageUrl": "/images/products/sweets.jpg",
       "category": "グルメ",
       "recipients": ["友人男性", "友人女性", "同僚", "子供"],
@@ -340,21 +343,20 @@
       "affiliateLinks": [
         {
           "provider": "amazon",
-          "url": "https://www.amazon.co.jp/dp/example",
-          "tag": "your-tag-22"
+          "url": "https://www.amazon.co.jp/s?k=ヨックモック+シガール+ギフト"
         }
       ],
-      "tags": ["グルメ", "お菓子", "詰め合わせ", "カジュアル"],
+      "tags": ["グルメ", "お菓子", "詰め合わせ", "ヨックモック"],
       "priority": 75,
       "isPublished": true,
       "createdAt": "2024-01-01T00:00:00Z",
-      "updatedAt": "2024-01-01T00:00:00Z"
+      "updatedAt": "2024-12-31T00:00:00Z"
     },
     {
       "id": "prod_015",
-      "name": "日本酒飲み比べセット",
-      "description": "全国の銘酒を少量ずつ楽しめる、日本酒好きにはたまらないセット",
-      "price": 6000,
+      "name": "日本酒 純米大吟醸 飲み比べセット 300ml×5本",
+      "description": "全国の銘酒を少量ずつ楽しめる、日本酒好きにはたまらないセット。ギフトボックス入り。",
+      "price": 5500,
       "imageUrl": "/images/products/sake.jpg",
       "category": "グルメ",
       "recipients": ["父", "上司", "友人男性"],
@@ -363,15 +365,18 @@
       "affiliateLinks": [
         {
           "provider": "amazon",
-          "url": "https://www.amazon.co.jp/dp/example",
-          "tag": "your-tag-22"
+          "url": "https://www.amazon.co.jp/s?rh=n%3A71610051%2Cp_n_style_browse-bin%3A2519093051"
+        },
+        {
+          "provider": "rakuten",
+          "url": "https://search.rakuten.co.jp/search/mall/日本酒+飲み比べ/"
         }
       ],
-      "tags": ["グルメ", "日本酒", "お酒", "男性向け"],
+      "tags": ["グルメ", "日本酒", "お酒", "男性向け", "飲み比べ"],
       "priority": 81,
       "isPublished": true,
       "createdAt": "2024-01-01T00:00:00Z",
-      "updatedAt": "2024-01-01T00:00:00Z"
+      "updatedAt": "2024-12-31T00:00:00Z"
     }
   ]
 }
