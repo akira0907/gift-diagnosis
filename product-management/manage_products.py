@@ -4,6 +4,7 @@
 
 使い方:
   python3 manage_products.py add-url <URL>        # URLから商品を追加
+  python3 manage_products.py auto-fill            # 不完全な行を自動補完
   python3 manage_products.py list                 # 商品一覧を表示
   python3 manage_products.py push                 # GitHubにプッシュ
   python3 manage_products.py open                 # CSVをデフォルトアプリで開く
@@ -88,7 +89,7 @@ def judge_category(name: str, price: int) -> Dict[str, Any]:
     name_lower = name.lower()
 
     # カテゴリ判定
-    if any(kw in name_lower for kw in ['化粧', 'コスメ', 'クリーム', '香水', 'アロマ', '入浴']):
+    if any(kw in name_lower for kw in ['化粧', 'コスメ', 'クリーム', '香水', 'アロマ', '入浴', 'ハンド', 'ボディ', 'スキンケア', 'シャンプー']):
         category = 'コスメ'
     elif any(kw in name_lower for kw in ['チョコ', 'スイーツ', 'お菓子', '酒', 'ワイン']):
         category = 'グルメ'
@@ -334,6 +335,82 @@ def push_to_github():
     print("🔗 https://gift-diagnosis.vercel.app")
 
 
+def auto_fill_incomplete_rows():
+    """不完全な行を自動補完"""
+    if not CSV_PATH.exists():
+        print("❌ CSVファイルが見つかりません")
+        return
+
+    rows = []
+    updated_count = 0
+
+    with open(CSV_PATH, 'r', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        fieldnames = reader.fieldnames
+
+        for row in reader:
+            # 商品名があるが、カテゴリが空の場合に自動補完
+            if row['name'] and not row.get('category'):
+                print(f"\n🔍 補完中: {row['name'][:50]}")
+
+                # 価格が空の場合、productUrlから取得を試みる
+                price = int(row['price']) if row.get('price') else 0
+                if not price and row.get('productUrl'):
+                    info = fetch_product_info(row['productUrl'])
+                    price = info['price']
+                    row['price'] = price
+                    print(f"   ✅ 価格: ¥{price:,}")
+
+                # AI判定
+                judgment = judge_category(row['name'], price)
+
+                # 空のフィールドを補完
+                if not row.get('id'):
+                    row['id'] = get_next_product_id()
+                if not row.get('description'):
+                    row['description'] = row['name']
+                if not row.get('imageUrl'):
+                    row['imageUrl'] = '/images/products/default.jpg'
+                row['category'] = judgment['category']
+                row['recipients'] = judgment['recipients']
+                row['occasions'] = judgment['occasions']
+                row['budgetRange'] = judgment['budgetRange']
+                row['tags'] = judgment['tags']
+                row['priority'] = judgment['priority']
+                if not row.get('isPublished'):
+                    row['isPublished'] = 'TRUE'
+
+                # productUrlがある場合、Amazon/楽天URLを設定
+                if row.get('productUrl'):
+                    url = row['productUrl']
+                    if 'amazon.co.jp' in url and not row.get('amazonUrl'):
+                        row['amazonUrl'] = url
+                    if 'rakuten.co.jp' in url and not row.get('rakutenUrl'):
+                        row['rakutenUrl'] = url
+
+                print(f"   🤖 カテゴリ: {judgment['category']}")
+                print(f"   🤖 予算帯: {judgment['budgetRange']}")
+                print(f"   ✅ 補完完了!")
+                updated_count += 1
+
+            rows.append(row)
+
+    if updated_count == 0:
+        print("✅ 補完が必要な行はありませんでした")
+        return
+
+    # CSVに書き戻し
+    with open(CSV_PATH, 'w', encoding='utf-8', newline='') as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(rows)
+
+    print(f"\n✅ {updated_count}件の行を自動補完しました")
+    print(f"\n💡 次のステップ:")
+    print(f"   1. python3 manage_products.py open  # 内容を確認")
+    print(f"   2. python3 manage_products.py push  # GitHubにプッシュ")
+
+
 def open_csv():
     """CSVファイルをデフォルトアプリで開く"""
     if not CSV_PATH.exists():
@@ -364,6 +441,9 @@ def main():
             print("使い方: python3 manage_products.py add-url <URL>")
             return
         add_product_from_url(sys.argv[2])
+
+    elif command == 'auto-fill':
+        auto_fill_incomplete_rows()
 
     elif command == 'list':
         list_products()
