@@ -220,16 +220,12 @@
    - シーンが妥当か確認
 
 6. **「GitHubにプッシュ」をクリック**
+   - CSV（`data/products.csv`）とJSON（`src/data/products.json`）の両方が自動的にGitHubに保存されます
+   - **Vercelが自動デプロイ**し、数分後に診断アプリに反映されます
 
-7. **ローカルで反映**
-   ```bash
-   cd /Users/yasuko/Documents/local/gift-diagnosis
-   git pull origin main
-   python3 scripts/csv_to_json.py
-   git add src/data/products.json
-   git commit -m "商品を10件追加"
-   git push origin main
-   ```
+7. **完了！**
+   - ローカルでの作業は不要です
+   - 診断アプリ（https://gift-diagnosis.vercel.app）で確認できます
 
 これで完了です！
 

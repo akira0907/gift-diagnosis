@@ -454,14 +454,32 @@ function pushToGitHub() {
 
   try {
     const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
-    const csvContent = convertSheetToCSV(sheet);
-    const result = uploadToGitHub(csvContent, token);
 
-    if (result.success) {
-      ui.alert('成功', 'GitHubへのプッシュが完了しました！\n\nコミットURL:\n' + result.commitUrl, ui.ButtonSet.OK);
-    } else {
-      ui.alert('エラー', 'GitHubへのプッシュに失敗しました。\n\n' + result.error, ui.ButtonSet.OK);
+    // 1. CSVとして保存
+    const csvContent = convertSheetToCSV(sheet);
+    const csvResult = uploadToGitHub(csvContent, token, CONFIG.FILE_PATH);
+
+    if (!csvResult.success) {
+      ui.alert('エラー', 'CSVのプッシュに失敗しました。\n\n' + csvResult.error, ui.ButtonSet.OK);
+      return;
     }
+
+    // 2. JSONに変換して保存
+    const jsonContent = convertSheetToJSON(sheet);
+    const jsonResult = uploadToGitHub(jsonContent, token, 'src/data/products.json');
+
+    if (!jsonResult.success) {
+      ui.alert('エラー', 'JSONのプッシュに失敗しました。\n\n' + jsonResult.error, ui.ButtonSet.OK);
+      return;
+    }
+
+    ui.alert('成功',
+      'GitHubへのプッシュが完了しました！\n\n' +
+      'CSV: ' + csvResult.commitUrl + '\n\n' +
+      'JSON: ' + jsonResult.commitUrl + '\n\n' +
+      '数分後にVercelで自動デプロイされ、診断アプリに反映されます。',
+      ui.ButtonSet.OK);
+
   } catch (error) {
     ui.alert('エラー', 'エラーが発生しました: ' + error.message, ui.ButtonSet.OK);
     Logger.log(error);
@@ -488,10 +506,76 @@ function convertSheetToCSV(sheet) {
   return csv.join('\n');
 }
 
-function uploadToGitHub(content, token) {
+/**
+ * スプレッドシートをJSON形式に変換（診断アプリ用）
+ */
+function convertSheetToJSON(sheet) {
+  const data = sheet.getDataRange().getValues();
+
+  // ヘッダー行を取得
+  const headers = data[0];
+
+  // データ行を処理
+  const products = [];
+  for (let i = 1; i < data.length; i++) {
+    const row = data[i];
+
+    // 空行はスキップ
+    if (!row[0]) continue;
+
+    const product = {};
+
+    for (let j = 0; j < headers.length; j++) {
+      const header = headers[j].toString().trim();
+      let value = row[j];
+
+      // 空の値はスキップ（productUrlは除く）
+      if (!value && header !== 'productUrl') {
+        if (header === 'amazonUrl' || header === 'rakutenUrl' || header === 'tags') {
+          value = '';
+        } else {
+          continue;
+        }
+      }
+
+      // データ型に応じて変換
+      if (header === 'price' || header === 'priority') {
+        // 数値型
+        product[header] = value ? parseInt(value) : 0;
+      } else if (header === 'isPublished') {
+        // 真偽値型
+        product[header] = value === 'TRUE' || value === true;
+      } else if (header === 'recipients' || header === 'occasions' || header === 'tags') {
+        // 配列型（カンマ区切り文字列を配列に変換）
+        if (value) {
+          const strValue = value.toString().trim();
+          product[header] = strValue ? strValue.split(',').map(function(item) {
+            return item.trim();
+          }).filter(function(item) {
+            return item;
+          }) : [];
+        } else {
+          product[header] = [];
+        }
+      } else if (header === 'productUrl') {
+        // productUrlはJSONに含めない
+        continue;
+      } else {
+        // 文字列型
+        product[header] = value ? value.toString().trim() : '';
+      }
+    }
+
+    products.push(product);
+  }
+
+  return JSON.stringify(products, null, 2);
+}
+
+function uploadToGitHub(content, token, filePath) {
   try {
     const getUrl = 'https://api.github.com/repos/' + CONFIG.GITHUB_OWNER + '/' +
-                   CONFIG.GITHUB_REPO + '/contents/' + CONFIG.FILE_PATH +
+                   CONFIG.GITHUB_REPO + '/contents/' + filePath +
                    '?ref=' + CONFIG.GITHUB_BRANCH;
 
     let sha = null;
@@ -514,10 +598,11 @@ function uploadToGitHub(content, token) {
 
     const now = new Date();
     const timestamp = Utilities.formatDate(now, 'Asia/Tokyo', 'yyyy-MM-dd HH:mm:ss');
-    const commitMessage = '商品データを更新 (' + timestamp + ')\n\nGoogleスプレッドシートから自動更新';
+    const fileType = filePath.indexOf('.json') !== -1 ? 'JSON' : 'CSV';
+    const commitMessage = '商品データを更新 (' + fileType + ') - ' + timestamp + '\n\nGoogleスプレッドシートから自動更新';
 
     const putUrl = 'https://api.github.com/repos/' + CONFIG.GITHUB_OWNER + '/' +
-                   CONFIG.GITHUB_REPO + '/contents/' + CONFIG.FILE_PATH;
+                   CONFIG.GITHUB_REPO + '/contents/' + filePath;
 
     const payload = {
       message: commitMessage,
