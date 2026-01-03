@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-03T16:06:24.357707Z",
+  "lastUpdated": "2026-01-03T16:12:03.223094Z",
   "products": [
     {
       "id": "prod_001",
@@ -37,10 +37,10 @@
         "ギフトセット",
         "ロクシタン"
       ],
-      "priority": 90,
+      "priority": 95,
       "isPublished": true,
-      "createdAt": "2026-01-03T16:06:24.356811Z",
-      "updatedAt": "2026-01-03T16:06:24.357278Z"
+      "createdAt": "2026-01-03T16:12:03.222730Z",
+      "updatedAt": "2026-01-03T16:12:03.222743Z"
     },
     {
       "id": "prod_002",
@@ -76,10 +76,10 @@
         "高級",
         "パーカー"
       ],
-      "priority": 85,
+      "priority": 88,
       "isPublished": true,
-      "createdAt": "2026-01-03T16:06:24.357316Z",
-      "updatedAt": "2026-01-03T16:06:24.357319Z"
+      "createdAt": "2026-01-03T16:12:03.222766Z",
+      "updatedAt": "2026-01-03T16:12:03.222769Z"
     },
     {
       "id": "prod_014",
@@ -111,10 +111,10 @@
         "詰め合わせ",
         "ヨックモック"
       ],
-      "priority": 75,
+      "priority": 80,
       "isPublished": true,
-      "createdAt": "2026-01-03T16:06:24.357339Z",
-      "updatedAt": "2026-01-03T16:06:24.357341Z"
+      "createdAt": "2026-01-03T16:12:03.222784Z",
+      "updatedAt": "2026-01-03T16:12:03.222786Z"
     },
     {
       "id": "prod_008",
@@ -153,10 +153,10 @@
         "リラックス",
         "女性向け"
       ],
-      "priority": 82,
+      "priority": 85,
       "isPublished": true,
-      "createdAt": "2026-01-03T16:06:24.357365Z",
-      "updatedAt": "2026-01-03T16:06:24.357367Z"
+      "createdAt": "2026-01-03T16:12:03.222803Z",
+      "updatedAt": "2026-01-03T16:12:03.222804Z"
     },
     {
       "id": "prod_010",
@@ -195,8 +195,8 @@
       ],
       "priority": 86,
       "isPublished": true,
-      "createdAt": "2026-01-03T16:06:24.357385Z",
-      "updatedAt": "2026-01-03T16:06:24.357387Z"
+      "createdAt": "2026-01-03T16:12:03.222820Z",
+      "updatedAt": "2026-01-03T16:12:03.222822Z"
     },
     {
       "id": "prod_003",
@@ -238,8 +238,8 @@
       ],
       "priority": 88,
       "isPublished": true,
-      "createdAt": "2026-01-03T16:06:24.357406Z",
-      "updatedAt": "2026-01-03T16:06:24.357408Z"
+      "createdAt": "2026-01-03T16:12:03.222838Z",
+      "updatedAt": "2026-01-03T16:12:03.222840Z"
     },
     {
       "id": "prod_005",
@@ -279,8 +279,8 @@
       ],
       "priority": 80,
       "isPublished": true,
-      "createdAt": "2026-01-03T16:06:24.357428Z",
-      "updatedAt": "2026-01-03T16:06:24.357430Z"
+      "createdAt": "2026-01-03T16:12:03.222856Z",
+      "updatedAt": "2026-01-03T16:12:03.222858Z"
     },
     {
       "id": "prod_006",
@@ -318,8 +318,8 @@
       ],
       "priority": 87,
       "isPublished": true,
-      "createdAt": "2026-01-03T16:06:24.357451Z",
-      "updatedAt": "2026-01-03T16:06:24.357453Z"
+      "createdAt": "2026-01-03T16:12:03.222878Z",
+      "updatedAt": "2026-01-03T16:12:03.222880Z"
     },
     {
       "id": "prod_011",
@@ -360,8 +360,8 @@
       ],
       "priority": 83,
       "isPublished": true,
-      "createdAt": "2026-01-03T16:06:24.357473Z",
-      "updatedAt": "2026-01-03T16:06:24.357476Z"
+      "createdAt": "2026-01-03T16:12:03.222898Z",
+      "updatedAt": "2026-01-03T16:12:03.222900Z"
     },
     {
       "id": "prod_015",
@@ -401,8 +401,8 @@
       ],
       "priority": 81,
       "isPublished": true,
-      "createdAt": "2026-01-03T16:06:24.357509Z",
-      "updatedAt": "2026-01-03T16:06:24.357511Z"
+      "createdAt": "2026-01-03T16:12:03.222918Z",
+      "updatedAt": "2026-01-03T16:12:03.222920Z"
     },
     {
       "id": "prod_004",
@@ -440,8 +440,8 @@
       ],
       "priority": 92,
       "isPublished": true,
-      "createdAt": "2026-01-03T16:06:24.357529Z",
-      "updatedAt": "2026-01-03T16:06:24.357531Z"
+      "createdAt": "2026-01-03T16:12:03.222936Z",
+      "updatedAt": "2026-01-03T16:12:03.222938Z"
     },
     {
       "id": "prod_012",
@@ -482,8 +482,8 @@
       ],
       "priority": 79,
       "isPublished": true,
-      "createdAt": "2026-01-03T16:06:24.357550Z",
-      "updatedAt": "2026-01-03T16:06:24.357552Z"
+      "createdAt": "2026-01-03T16:12:03.222956Z",
+      "updatedAt": "2026-01-03T16:12:03.222958Z"
     },
     {
       "id": "prod_007",
@@ -519,8 +519,8 @@
       ],
       "priority": 84,
       "isPublished": true,
-      "createdAt": "2026-01-03T16:06:24.357568Z",
-      "updatedAt": "2026-01-03T16:06:24.357570Z"
+      "createdAt": "2026-01-03T16:12:03.222973Z",
+      "updatedAt": "2026-01-03T16:12:03.222975Z"
     },
     {
       "id": "prod_100",
@@ -560,8 +560,8 @@
       ],
       "priority": 95,
       "isPublished": true,
-      "createdAt": "2026-01-03T16:06:24.357592Z",
-      "updatedAt": "2026-01-03T16:06:24.357594Z"
+      "createdAt": "2026-01-03T16:12:03.222995Z",
+      "updatedAt": "2026-01-03T16:12:03.222997Z"
     },
     {
       "id": "prod_009",
@@ -598,8 +598,8 @@
       ],
       "priority": 91,
       "isPublished": true,
-      "createdAt": "2026-01-03T16:06:24.357611Z",
-      "updatedAt": "2026-01-03T16:06:24.357613Z"
+      "createdAt": "2026-01-03T16:12:03.223015Z",
+      "updatedAt": "2026-01-03T16:12:03.223017Z"
     },
     {
       "id": "prod_013",
@@ -637,8 +637,8 @@
       ],
       "priority": 88,
       "isPublished": true,
-      "createdAt": "2026-01-03T16:06:24.357656Z",
-      "updatedAt": "2026-01-03T16:06:24.357659Z"
+      "createdAt": "2026-01-03T16:12:03.223048Z",
+      "updatedAt": "2026-01-03T16:12:03.223050Z"
     },
     {
       "id": "prod_016",
@@ -669,8 +669,8 @@
       ],
       "priority": 85,
       "isPublished": true,
-      "createdAt": "2026-01-03T16:06:24.357685Z",
-      "updatedAt": "2026-01-03T16:06:24.357687Z"
+      "createdAt": "2026-01-03T16:12:03.223074Z",
+      "updatedAt": "2026-01-03T16:12:03.223077Z"
     }
   ]
 }
