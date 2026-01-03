@@ -657,7 +657,7 @@ function uploadToGitHub(content, token, filePath) {
 
     const payload = {
       message: commitMessage,
-      content: Utilities.base64Encode(content),
+      content: Utilities.base64Encode(content, Utilities.Charset.UTF_8),
       branch: CONFIG.GITHUB_BRANCH
     };
 
