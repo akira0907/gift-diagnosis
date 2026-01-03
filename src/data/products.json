@@ -1,644 +1,535 @@
-{
-  "version": "1.0.0",
-  "lastUpdated": "2025-12-31T19:31:59.166996Z",
-  "products": [
-    {
-      "id": "prod_001",
-      "name": "ロクシタン ハンドクリーム GIFT FOR YOU ギフトセット",
-      "description": "ミニサイズのハンドクリーム4本ギフトセット。ホリデーだけの4種類の香りを楽しめるショッパーバッグ付き。",
-      "price": 2970,
-      "imageUrl": "/images/products/handcream.jpg",
-      "category": "コスメ",
-      "recipients": [
-        "彼女",
-        "妻",
-        "母",
-        "友人女性",
-        "同僚"
-      ],
-      "occasions": [
-        "誕生日",
-        "クリスマス",
-        "ホワイトデー",
-        "母の日",
-        "お礼"
-      ],
-      "budgetRange": "〜3,000円",
-      "affiliateLinks": [
-        {
-          "provider": "amazon",
-          "url": "https://www.amazon.co.jp/dp/B0DJMMJSPZ"
-        }
-      ],
-      "tags": [
-        "コスメ",
-        "ハンドクリーム",
-        "女性向け",
-        "ギフトセット",
-        "ロクシタン"
-      ],
-      "priority": 90,
-      "isPublished": true,
-      "createdAt": "2025-12-31T19:31:59.166383Z",
-      "updatedAt": "2025-12-31T19:31:59.166427Z"
-    },
-    {
-      "id": "prod_002",
-      "name": "パーカー ジョッター ボールペン ブラックCT",
-      "description": "ビジネスシーンで活躍する、書き心地抜群の高級ボールペン。トレードマークの矢羽クリップが特徴。",
-      "price": 2750,
-      "imageUrl": "/images/products/pen.jpg",
-      "category": "雑貨",
-      "recipients": [
-        "彼氏",
-        "夫",
-        "父",
-        "上司",
-        "同僚"
-      ],
-      "occasions": [
-        "誕生日",
-        "父の日",
-        "就職祝い",
-        "退職祝い"
-      ],
-      "budgetRange": "〜3,000円",
-      "affiliateLinks": [
-        {
-          "provider": "amazon",
-          "url": "https://www.amazon.co.jp/dp/B01KZHW0Z0"
-        }
-      ],
-      "tags": [
-        "ビジネス",
-        "文房具",
-        "男性向け",
-        "高級",
-        "パーカー"
-      ],
-      "priority": 85,
-      "isPublished": true,
-      "createdAt": "2025-12-31T19:31:59.166446Z",
-      "updatedAt": "2025-12-31T19:31:59.166448Z"
-    },
-    {
-      "id": "prod_014",
-      "name": "ヨックモック シガール プティ サンク デリス 詰め合わせ",
-      "description": "バターの風味豊かでサクサクな洋菓子詰め合わせ。子どもも大人も喜ぶ定番ギフト。",
-      "price": 2700,
-      "imageUrl": "/images/products/sweets.jpg",
-      "category": "グルメ",
-      "recipients": [
-        "友人男性",
-        "友人女性",
-        "同僚",
-        "子供"
-      ],
-      "occasions": [
-        "お礼",
-        "誕生日"
-      ],
-      "budgetRange": "〜3,000円",
-      "affiliateLinks": [
-        {
-          "provider": "amazon",
-          "url": "https://www.amazon.co.jp/s?k=ヨックモック+シガール+ギフト"
-        }
-      ],
-      "tags": [
-        "グルメ",
-        "お菓子",
-        "詰め合わせ",
-        "ヨックモック"
-      ],
-      "priority": 75,
-      "isPublished": true,
-      "createdAt": "2025-12-31T19:31:59.166462Z",
-      "updatedAt": "2025-12-31T19:31:59.166464Z"
-    },
-    {
-      "id": "prod_008",
-      "name": "CLAYD 入浴剤 ギフトセット ONETIME",
-      "description": "天然クレイを使用した高級入浴剤。一日の疲れを癒す、贅沢なバスタイムを演出。",
-      "price": 3850,
-      "imageUrl": "/images/products/bath.jpg",
-      "category": "コスメ",
-      "recipients": [
-        "彼女",
-        "妻",
-        "母",
-        "友人女性",
-        "同僚"
-      ],
-      "occasions": [
-        "誕生日",
-        "お礼",
-        "ホワイトデー",
-        "母の日"
-      ],
-      "budgetRange": "3,000〜5,000円",
-      "affiliateLinks": [
-        {
-          "provider": "amazon",
-          "url": "https://www.amazon.co.jp/s?k=入浴剤+ギフト+高級"
-        },
-        {
-          "provider": "rakuten",
-          "url": "https://search.rakuten.co.jp/search/mall/入浴剤+ギフト+3000円/"
-        }
-      ],
-      "tags": [
-        "コスメ",
-        "入浴剤",
-        "リラックス",
-        "女性向け"
-      ],
-      "priority": 82,
-      "isPublished": true,
-      "createdAt": "2025-12-31T19:31:59.166479Z",
-      "updatedAt": "2025-12-31T19:31:59.166481Z"
-    },
-    {
-      "id": "prod_010",
-      "name": "ゴディバ ゴールドコレクション チョコレートアソート",
-      "description": "ショコラティエが手がける本格派チョコレート。特別な日に贈りたい高級感のある味わい。",
-      "price": 4320,
-      "imageUrl": "/images/products/chocolate.jpg",
-      "category": "グルメ",
-      "recipients": [
-        "彼氏",
-        "彼女",
-        "上司",
-        "同僚",
-        "友人男性",
-        "友人女性"
-      ],
-      "occasions": [
-        "バレンタイン",
-        "ホワイトデー",
-        "お礼",
-        "誕生日"
-      ],
-      "budgetRange": "3,000〜5,000円",
-      "affiliateLinks": [
-        {
-          "provider": "amazon",
-          "url": "https://www.amazon.co.jp/s?rh=n%3A4522771051%2Cp_89%3AGODIVA"
-        }
-      ],
-      "tags": [
-        "グルメ",
-        "チョコレート",
-        "スイーツ",
-        "高級",
-        "ゴディバ"
-      ],
-      "priority": 86,
-      "isPublished": true,
-      "createdAt": "2025-12-31T19:31:59.166495Z",
-      "updatedAt": "2025-12-31T19:31:59.166497Z"
-    },
-    {
-      "id": "prod_003",
-      "name": "無印良品 水を使わないアロマディフューザー",
-      "description": "エッセンシャルオイルを原液のまま噴霧し、本来の香りを楽しめる。約4.5〜8畳対応、タイマー機能付き。",
-      "price": 4990,
-      "imageUrl": "/images/products/aroma.jpg",
-      "category": "インテリア",
-      "recipients": [
-        "彼女",
-        "妻",
-        "母",
-        "友人女性"
-      ],
-      "occasions": [
-        "誕生日",
-        "クリスマス",
-        "記念日",
-        "母の日",
-        "お礼"
-      ],
-      "budgetRange": "3,000〜5,000円",
-      "affiliateLinks": [
-        {
-          "provider": "amazon",
-          "url": "https://www.amazon.co.jp/s?k=無印良品+アロマディフューザー"
-        },
-        {
-          "provider": "rakuten",
-          "url": "https://search.rakuten.co.jp/search/mall/無印良品+アロマディフューザー/"
-        }
-      ],
-      "tags": [
-        "インテリア",
-        "アロマ",
-        "女性向け",
-        "リラックス",
-        "無印良品"
-      ],
-      "priority": 88,
-      "isPublished": true,
-      "createdAt": "2025-12-31T19:31:59.166512Z",
-      "updatedAt": "2025-12-31T19:31:59.166513Z"
-    },
-    {
-      "id": "prod_005",
-      "name": "やさしいごちそう グルメカタログギフト 緑のえだまめ",
-      "description": "4年連続ギフト大賞受賞。全国の美味しいものを自分で選べる人気のカタログギフト。",
-      "price": 5500,
-      "imageUrl": "/images/products/catalog.jpg",
-      "category": "グルメ",
-      "recipients": [
-        "父",
-        "母",
-        "上司",
-        "同僚"
-      ],
-      "occasions": [
-        "お礼",
-        "退職祝い",
-        "結婚祝い",
-        "出産祝い"
-      ],
-      "budgetRange": "5,000〜10,000円",
-      "affiliateLinks": [
-        {
-          "provider": "amazon",
-          "url": "https://www.amazon.co.jp/s?k=グルメカタログギフト+5000円"
-        },
-        {
-          "provider": "rakuten",
-          "url": "https://search.rakuten.co.jp/search/mall/グルメカタログギフト+5000円/"
-        }
-      ],
-      "tags": [
-        "グルメ",
-        "カタログギフト",
-        "万人向け",
-        "選べる"
-      ],
-      "priority": 80,
-      "isPublished": true,
-      "createdAt": "2025-12-31T19:31:59.166527Z",
-      "updatedAt": "2025-12-31T19:31:59.166529Z"
-    },
-    {
-      "id": "prod_006",
-      "name": "THANN バス&ボディ トライアルギフトセット",
-      "description": "タイ生まれのナチュラルスキンケアブランド。シャンプー・ボディケア5点セット、ギフトボックス入り。",
-      "price": 5500,
-      "imageUrl": "/images/products/organic-cosme.jpg",
-      "category": "コスメ",
-      "recipients": [
-        "彼女",
-        "妻",
-        "母",
-        "友人女性"
-      ],
-      "occasions": [
-        "誕生日",
-        "クリスマス",
-        "ホワイトデー",
-        "母の日",
-        "記念日"
-      ],
-      "budgetRange": "5,000〜10,000円",
-      "affiliateLinks": [
-        {
-          "provider": "amazon",
-          "url": "https://www.amazon.co.jp/dp/B074PWCZZY"
-        }
-      ],
-      "tags": [
-        "コスメ",
-        "オーガニック",
-        "スキンケア",
-        "女性向け",
-        "THANN"
-      ],
-      "priority": 87,
-      "isPublished": true,
-      "createdAt": "2025-12-31T19:31:59.166547Z",
-      "updatedAt": "2025-12-31T19:31:59.166549Z"
-    },
-    {
-      "id": "prod_011",
-      "name": "日比谷花壇 プリザーブドフラワー ギフト",
-      "description": "プロのフローリストが手がける、長く楽しめるプリザーブドフラワーアレンジメント。",
-      "price": 5500,
-      "imageUrl": "/images/products/flower.jpg",
-      "category": "花・植物",
-      "recipients": [
-        "彼女",
-        "妻",
-        "母",
-        "友人女性"
-      ],
-      "occasions": [
-        "誕生日",
-        "母の日",
-        "記念日",
-        "お礼"
-      ],
-      "budgetRange": "5,000〜10,000円",
-      "affiliateLinks": [
-        {
-          "provider": "amazon",
-          "url": "https://www.amazon.co.jp/gp/bestsellers/kitchen/10338333051"
-        },
-        {
-          "provider": "rakuten",
-          "url": "https://search.rakuten.co.jp/search/mall/プリザーブドフラワー+ギフト/"
-        }
-      ],
-      "tags": [
-        "花",
-        "フラワー",
-        "女性向け",
-        "華やか",
-        "プリザーブド"
-      ],
-      "priority": 83,
-      "isPublished": true,
-      "createdAt": "2025-12-31T19:31:59.166566Z",
-      "updatedAt": "2025-12-31T19:31:59.166568Z"
-    },
-    {
-      "id": "prod_015",
-      "name": "日本酒 純米大吟醸 飲み比べセット 300ml×5本",
-      "description": "全国の銘酒を少量ずつ楽しめる、日本酒好きにはたまらないセット。ギフトボックス入り。",
-      "price": 5500,
-      "imageUrl": "/images/products/sake.jpg",
-      "category": "グルメ",
-      "recipients": [
-        "父",
-        "上司",
-        "友人男性"
-      ],
-      "occasions": [
-        "誕生日",
-        "父の日",
-        "お礼",
-        "退職祝い"
-      ],
-      "budgetRange": "5,000〜10,000円",
-      "affiliateLinks": [
-        {
-          "provider": "amazon",
-          "url": "https://www.amazon.co.jp/s?rh=n%3A71610051%2Cp_n_style_browse-bin%3A2519093051"
-        },
-        {
-          "provider": "rakuten",
-          "url": "https://search.rakuten.co.jp/search/mall/日本酒+飲み比べ/"
-        }
-      ],
-      "tags": [
-        "グルメ",
-        "日本酒",
-        "お酒",
-        "男性向け",
-        "飲み比べ"
-      ],
-      "priority": 81,
-      "isPublished": true,
-      "createdAt": "2025-12-31T19:31:59.166585Z",
-      "updatedAt": "2025-12-31T19:31:59.166586Z"
-    },
-    {
-      "id": "prod_004",
-      "name": "Anker Soundcore P40i ワイヤレスイヤホン",
-      "description": "ノイズキャンセリング、マルチポイント対応。60時間バッテリーで1日中使える高コスパモデル。",
-      "price": 7990,
-      "imageUrl": "/images/products/earphone.jpg",
-      "category": "ガジェット",
-      "recipients": [
-        "彼氏",
-        "彼女",
-        "夫",
-        "妻",
-        "友人男性",
-        "友人女性"
-      ],
-      "occasions": [
-        "誕生日",
-        "クリスマス",
-        "記念日"
-      ],
-      "budgetRange": "5,000〜10,000円",
-      "affiliateLinks": [
-        {
-          "provider": "amazon",
-          "url": "https://www.amazon.co.jp/s?k=Anker+Soundcore+P40i"
-        }
-      ],
-      "tags": [
-        "ガジェット",
-        "イヤホン",
-        "音楽",
-        "Anker",
-        "ノイズキャンセリング"
-      ],
-      "priority": 92,
-      "isPublished": true,
-      "createdAt": "2025-12-31T19:31:59.166601Z",
-      "updatedAt": "2025-12-31T19:31:59.166602Z"
-    },
-    {
-      "id": "prod_012",
-      "name": "タケオキクチ ネクタイ＆タイバー BOXセット",
-      "description": "ビジネスマンに嬉しい、上品なネクタイとタイバーのギフトボックス入りセット。",
-      "price": 8800,
-      "imageUrl": "/images/products/tie.jpg",
-      "category": "ファッション",
-      "recipients": [
-        "彼氏",
-        "夫",
-        "父",
-        "上司"
-      ],
-      "occasions": [
-        "誕生日",
-        "父の日",
-        "就職祝い",
-        "クリスマス"
-      ],
-      "budgetRange": "5,000〜10,000円",
-      "affiliateLinks": [
-        {
-          "provider": "amazon",
-          "url": "https://www.amazon.co.jp/gp/most-gifted/apparel/2231261051"
-        },
-        {
-          "provider": "rakuten",
-          "url": "https://search.rakuten.co.jp/search/mall/タケオキクチ+ネクタイ+ギフト/"
-        }
-      ],
-      "tags": [
-        "ファッション",
-        "ネクタイ",
-        "ビジネス",
-        "男性向け",
-        "タケオキクチ"
-      ],
-      "priority": 79,
-      "isPublished": true,
-      "createdAt": "2025-12-31T19:31:59.166616Z",
-      "updatedAt": "2025-12-31T19:31:59.166619Z"
-    },
-    {
-      "id": "prod_007",
-      "name": "栃木レザー 長財布 ラウンドファスナー 本革",
-      "description": "日本が世界に誇る栃木レザーを使用。使い込むほど味わい深い色艶が生まれる経年変化を楽しめる逸品。",
-      "price": 11000,
-      "imageUrl": "/images/products/wallet.jpg",
-      "category": "ファッション",
-      "recipients": [
-        "彼氏",
-        "夫",
-        "父"
-      ],
-      "occasions": [
-        "誕生日",
-        "クリスマス",
-        "記念日",
-        "父の日"
-      ],
-      "budgetRange": "10,000〜20,000円",
-      "affiliateLinks": [
-        {
-          "provider": "amazon",
-          "url": "https://www.amazon.co.jp/dp/B0B516KQSN"
-        }
-      ],
-      "tags": [
-        "ファッション",
-        "財布",
-        "レザー",
-        "男性向け",
-        "栃木レザー"
-      ],
-      "priority": 84,
-      "isPublished": true,
-      "createdAt": "2025-12-31T19:31:59.166636Z",
-      "updatedAt": "2025-12-31T19:31:59.166638Z"
-    },
-    {
-      "id": "prod_100",
-      "name": "ワゴン付きベンチ 玄関ベンチ 収納 木製 幅90cm",
-      "description": "ベンチ、収納、子供用デスクの3WAYで使える優れもの。収納が少ない都心暮らしや、子供のおもちゃ収納に最適です。",
-      "price": 13918,
-      "imageUrl": "/images/products/wagon-bench.jpg",
-      "category": "インテリア",
-      "recipients": [
-        "妻",
-        "夫",
-        "友人女性",
-        "友人男性",
-        "同僚"
-      ],
-      "occasions": [
-        "出産祝い",
-        "引っ越し祝い",
-        "誕生日",
-        "クリスマス"
-      ],
-      "budgetRange": "10,000〜20,000円",
-      "affiliateLinks": [
-        {
-          "provider": "rakuten",
-          "url": "https://room.rakuten.co.jp/room_lifestyleselect/1700254827652879"
-        }
-      ],
-      "tags": [
-        "インテリア",
-        "収納",
-        "ベンチ",
-        "子供",
-        "おもちゃ箱",
-        "3WAY",
-        "木製"
-      ],
-      "priority": 95,
-      "isPublished": true,
-      "createdAt": "2025-12-31T19:31:59.166669Z",
-      "updatedAt": "2025-12-31T19:31:59.166670Z"
-    },
-    {
-      "id": "prod_009",
-      "name": "Xiaomi Watch S3 スマートウォッチ",
-      "description": "ファッション性の高いデザインで多様なスポーツモードを搭載。健康管理から通知確認まで日常をスマートに。",
-      "price": 18980,
-      "imageUrl": "/images/products/smartwatch.jpg",
-      "category": "ガジェット",
-      "recipients": [
-        "彼氏",
-        "彼女",
-        "夫",
-        "妻",
-        "父",
-        "母"
-      ],
-      "occasions": [
-        "誕生日",
-        "クリスマス",
-        "記念日"
-      ],
-      "budgetRange": "10,000〜20,000円",
-      "affiliateLinks": [
-        {
-          "provider": "amazon",
-          "url": "https://www.amazon.co.jp/stores/Xiaomiシャオミ/page/8139F517-E56F-45ED-869F-EE5B2780ED88"
-        }
-      ],
-      "tags": [
-        "ガジェット",
-        "スマートウォッチ",
-        "健康",
-        "Xiaomi"
-      ],
-      "priority": 91,
-      "isPublished": true,
-      "createdAt": "2025-12-31T19:31:59.166685Z",
-      "updatedAt": "2025-12-31T19:31:59.166687Z"
-    },
-    {
-      "id": "prod_013",
-      "name": "SOW EXPERIENCE レストランギフト（BROWN）",
-      "description": "老舗や名店から選んで2人で食事ができる体験ギフト。鉄板焼、懐石、フレンチなど約45店から選択可能。",
-      "price": 33880,
-      "imageUrl": "/images/products/dinner.jpg",
-      "category": "体験",
-      "recipients": [
-        "彼氏",
-        "彼女",
-        "夫",
-        "妻",
-        "父",
-        "母"
-      ],
-      "occasions": [
-        "記念日",
-        "誕生日",
-        "結婚祝い"
-      ],
-      "budgetRange": "30,000円〜",
-      "affiliateLinks": [
-        {
-          "provider": "amazon",
-          "url": "https://www.amazon.co.jp/dp/B07Z4M396P"
-        }
-      ],
-      "tags": [
-        "体験",
-        "ディナー",
-        "レストラン",
-        "特別",
-        "SOW EXPERIENCE"
-      ],
-      "priority": 88,
-      "isPublished": true,
-      "createdAt": "2025-12-31T19:31:59.166974Z",
-      "updatedAt": "2025-12-31T19:31:59.166980Z"
-    }
-  ]
-}
+[
+  {
+    "id": "prod_001",
+    "name": "????? ??????? GIFT FOR YOU ??????",
+    "description": "?????????????4???????????????4?????????????????????",
+    "price": 2970,
+    "imageUrl": "/images/products/handcream.jpg",
+    "category": "???",
+    "recipients": [
+      "??",
+      "?",
+      "?",
+      "????",
+      "??"
+    ],
+    "occasions": [
+      "???",
+      "?????",
+      "??????",
+      "???",
+      "??"
+    ],
+    "budgetRange": "?3,000?",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0DJMMJSPZ",
+    "rakutenUrl": "",
+    "tags": [
+      "???",
+      "???????",
+      "????",
+      "??????",
+      "?????"
+    ],
+    "priority": 90,
+    "isPublished": true
+  },
+  {
+    "id": "prod_002",
+    "name": "???? ????? ????? ????CT",
+    "description": "??????????????????????????????????????????????",
+    "price": 2750,
+    "imageUrl": "/images/products/pen.jpg",
+    "category": "??",
+    "recipients": [
+      "??",
+      "?",
+      "?",
+      "??",
+      "??"
+    ],
+    "occasions": [
+      "???",
+      "???",
+      "????",
+      "????"
+    ],
+    "budgetRange": "?3,000?",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B01KZHW0Z0",
+    "rakutenUrl": "",
+    "tags": [
+      "????",
+      "???",
+      "????",
+      "??",
+      "????"
+    ],
+    "priority": 85,
+    "isPublished": true
+  },
+  {
+    "id": "prod_014",
+    "name": "?????? ???? ??? ??? ??? ?????",
+    "description": "??????????????????????????????????????",
+    "price": 2700,
+    "imageUrl": "/images/products/sweets.jpg",
+    "category": "???",
+    "recipients": [
+      "????",
+      "????",
+      "??",
+      "??"
+    ],
+    "occasions": [
+      "??",
+      "???"
+    ],
+    "budgetRange": "?3,000?",
+    "amazonUrl": "https://www.amazon.co.jp/s?k=??????+????+???",
+    "rakutenUrl": "",
+    "tags": [
+      "???",
+      "???",
+      "?????",
+      "??????"
+    ],
+    "priority": 75,
+    "isPublished": true
+  },
+  {
+    "id": "prod_008",
+    "name": "CLAYD ??? ?????? ONETIME",
+    "description": "?????????????????????????????????????",
+    "price": 3850,
+    "imageUrl": "/images/products/bath.jpg",
+    "category": "???",
+    "recipients": [
+      "??",
+      "?",
+      "?",
+      "????",
+      "??"
+    ],
+    "occasions": [
+      "???",
+      "??",
+      "??????",
+      "???"
+    ],
+    "budgetRange": "3,000?5,000?",
+    "amazonUrl": "https://www.amazon.co.jp/s?k=???+???+??",
+    "rakutenUrl": "https://search.rakuten.co.jp/search/mall/???+???+3000?/",
+    "tags": [
+      "???",
+      "???",
+      "?????",
+      "????"
+    ],
+    "priority": 82,
+    "isPublished": true
+  },
+  {
+    "id": "prod_010",
+    "name": "???? ?????????? ??????????",
+    "description": "?????????????????????????????????????????",
+    "price": 4320,
+    "imageUrl": "/images/products/chocolate.jpg",
+    "category": "???",
+    "recipients": [
+      "??",
+      "??",
+      "??",
+      "??",
+      "????",
+      "????"
+    ],
+    "occasions": [
+      "??????",
+      "??????",
+      "??",
+      "???"
+    ],
+    "budgetRange": "3,000?5,000?",
+    "amazonUrl": "https://www.amazon.co.jp/s?rh=n%3A4522771051%2Cp_89%3AGODIVA",
+    "rakutenUrl": "",
+    "tags": [
+      "???",
+      "??????",
+      "????",
+      "??",
+      "????"
+    ],
+    "priority": 86,
+    "isPublished": true
+  },
+  {
+    "id": "prod_003",
+    "name": "???? ????????????????",
+    "description": "????????????????????????????????4.5?8?????????????",
+    "price": 4990,
+    "imageUrl": "/images/products/aroma.jpg",
+    "category": "?????",
+    "recipients": [
+      "??",
+      "?",
+      "?",
+      "????"
+    ],
+    "occasions": [
+      "???",
+      "?????",
+      "???",
+      "???",
+      "??"
+    ],
+    "budgetRange": "3,000?5,000?",
+    "amazonUrl": "https://www.amazon.co.jp/s?k=????+??????????",
+    "rakutenUrl": "https://search.rakuten.co.jp/search/mall/????+??????????/",
+    "tags": [
+      "?????",
+      "???",
+      "????",
+      "?????",
+      "????"
+    ],
+    "priority": 88,
+    "isPublished": true
+  },
+  {
+    "id": "prod_005",
+    "name": "???????? ?????????? ??????",
+    "description": "4??????????????????????????????????????",
+    "price": 5500,
+    "imageUrl": "/images/products/catalog.jpg",
+    "category": "???",
+    "recipients": [
+      "?",
+      "?",
+      "??",
+      "??"
+    ],
+    "occasions": [
+      "??",
+      "????",
+      "????",
+      "????"
+    ],
+    "budgetRange": "5,000?10,000?",
+    "amazonUrl": "https://www.amazon.co.jp/s?k=??????????+5000?",
+    "rakutenUrl": "https://search.rakuten.co.jp/search/mall/??????????+5000?/",
+    "tags": [
+      "???",
+      "???????",
+      "????",
+      "???"
+    ],
+    "priority": 80,
+    "isPublished": true
+  },
+  {
+    "id": "prod_006",
+    "name": "THANN ??&??? ???????????",
+    "description": "????????????????????????????????5???????????????",
+    "price": 5500,
+    "imageUrl": "/images/products/organic-cosme.jpg",
+    "category": "???",
+    "recipients": [
+      "??",
+      "?",
+      "?",
+      "????"
+    ],
+    "occasions": [
+      "???",
+      "?????",
+      "??????",
+      "???",
+      "???"
+    ],
+    "budgetRange": "5,000?10,000?",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B074PWCZZY",
+    "rakutenUrl": "",
+    "tags": [
+      "???",
+      "??????",
+      "?????",
+      "????",
+      "THANN"
+    ],
+    "priority": 87,
+    "isPublished": true
+  },
+  {
+    "id": "prod_011",
+    "name": "????? ?????????? ???",
+    "description": "???????????????????????????????????????",
+    "price": 5500,
+    "imageUrl": "/images/products/flower.jpg",
+    "category": "????",
+    "recipients": [
+      "??",
+      "?",
+      "?",
+      "????"
+    ],
+    "occasions": [
+      "???",
+      "???",
+      "???",
+      "??"
+    ],
+    "budgetRange": "5,000?10,000?",
+    "amazonUrl": "https://www.amazon.co.jp/gp/bestsellers/kitchen/10338333051",
+    "rakutenUrl": "https://search.rakuten.co.jp/search/mall/??????????+???/",
+    "tags": [
+      "?",
+      "????",
+      "????",
+      "???",
+      "??????"
+    ],
+    "priority": 83,
+    "isPublished": true
+  },
+  {
+    "id": "prod_015",
+    "name": "??? ????? ??????? 300ml?5?",
+    "description": "?????????????????????????????????????????",
+    "price": 5500,
+    "imageUrl": "/images/products/sake.jpg",
+    "category": "???",
+    "recipients": [
+      "?",
+      "??",
+      "????"
+    ],
+    "occasions": [
+      "???",
+      "???",
+      "??",
+      "????"
+    ],
+    "budgetRange": "5,000?10,000?",
+    "amazonUrl": "https://www.amazon.co.jp/s?rh=n%3A71610051%2Cp_n_style_browse-bin%3A2519093051",
+    "rakutenUrl": "https://search.rakuten.co.jp/search/mall/???+????/",
+    "tags": [
+      "???",
+      "???",
+      "??",
+      "????",
+      "????"
+    ],
+    "priority": 81,
+    "isPublished": true
+  },
+  {
+    "id": "prod_004",
+    "name": "Anker Soundcore P40i ?????????",
+    "description": "?????????????????????60????????1?????????????",
+    "price": 7990,
+    "imageUrl": "/images/products/earphone.jpg",
+    "category": "?????",
+    "recipients": [
+      "??",
+      "??",
+      "?",
+      "?",
+      "????",
+      "????"
+    ],
+    "occasions": [
+      "???",
+      "?????",
+      "???"
+    ],
+    "budgetRange": "5,000?10,000?",
+    "amazonUrl": "https://www.amazon.co.jp/s?k=Anker+Soundcore+P40i",
+    "rakutenUrl": "",
+    "tags": [
+      "?????",
+      "????",
+      "??",
+      "Anker",
+      "??????????"
+    ],
+    "priority": 92,
+    "isPublished": true
+  },
+  {
+    "id": "prod_012",
+    "name": "?????? ????????? BOX???",
+    "description": "?????????????????????????????????????",
+    "price": 8800,
+    "imageUrl": "/images/products/tie.jpg",
+    "category": "??????",
+    "recipients": [
+      "??",
+      "?",
+      "?",
+      "??"
+    ],
+    "occasions": [
+      "???",
+      "???",
+      "????",
+      "?????"
+    ],
+    "budgetRange": "5,000?10,000?",
+    "amazonUrl": "https://www.amazon.co.jp/gp/most-gifted/apparel/2231261051",
+    "rakutenUrl": "https://search.rakuten.co.jp/search/mall/??????+????+???/",
+    "tags": [
+      "??????",
+      "????",
+      "????",
+      "????",
+      "??????"
+    ],
+    "priority": 79,
+    "isPublished": true
+  },
+  {
+    "id": "prod_007",
+    "name": "????? ??? ????????? ??",
+    "description": "???????????????????????????????????????????????",
+    "price": 11000,
+    "imageUrl": "/images/products/wallet.jpg",
+    "category": "??????",
+    "recipients": [
+      "??",
+      "?",
+      "?"
+    ],
+    "occasions": [
+      "???",
+      "?????",
+      "???",
+      "???"
+    ],
+    "budgetRange": "10,000?20,000?",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0B516KQSN",
+    "rakutenUrl": "",
+    "tags": [
+      "??????",
+      "??",
+      "???",
+      "????",
+      "?????"
+    ],
+    "priority": 84,
+    "isPublished": true
+  },
+  {
+    "id": "prod_100",
+    "name": "???????? ????? ?? ?? ?90cm",
+    "description": "??????????????3WAY?????????????????????????????????????",
+    "price": 13918,
+    "imageUrl": "/images/products/wagon-bench.jpg",
+    "category": "?????",
+    "recipients": [
+      "?",
+      "?",
+      "????",
+      "????",
+      "??"
+    ],
+    "occasions": [
+      "????",
+      "??????",
+      "???",
+      "?????"
+    ],
+    "budgetRange": "10,000?20,000?",
+    "amazonUrl": "",
+    "rakutenUrl": "https://room.rakuten.co.jp/room_lifestyleselect/1700254827652879",
+    "tags": [
+      "?????",
+      "??",
+      "???",
+      "??",
+      "?????",
+      "3WAY",
+      "??"
+    ],
+    "priority": 95,
+    "isPublished": true
+  },
+  {
+    "id": "prod_009",
+    "name": "Xiaomi Watch S3 ????????",
+    "description": "??????????????????????????????????????????????????",
+    "price": 18980,
+    "imageUrl": "/images/products/smartwatch.jpg",
+    "category": "?????",
+    "recipients": [
+      "??",
+      "??",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "occasions": [
+      "???",
+      "?????",
+      "???"
+    ],
+    "budgetRange": "10,000?20,000?",
+    "amazonUrl": "https://www.amazon.co.jp/stores/Xiaomi????/page/8139F517-E56F-45ED-869F-EE5B2780ED88",
+    "rakutenUrl": "",
+    "tags": [
+      "?????",
+      "????????",
+      "??",
+      "Xiaomi"
+    ],
+    "priority": 91,
+    "isPublished": true
+  },
+  {
+    "id": "prod_013",
+    "name": "SOW EXPERIENCE ?????????BROWN?",
+    "description": "??????????2????????????????????????????45????????",
+    "price": 33880,
+    "imageUrl": "/images/products/dinner.jpg",
+    "category": "??",
+    "recipients": [
+      "??",
+      "??",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "occasions": [
+      "???",
+      "???",
+      "????"
+    ],
+    "budgetRange": "30,000??",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B07Z4M396P",
+    "rakutenUrl": "",
+    "tags": [
+      "??",
+      "????",
+      "?????",
+      "??",
+      "SOW EXPERIENCE"
+    ],
+    "priority": 88,
+    "isPublished": true
+  },
+  {
+    "id": "prod_016",
+    "name": "???????????",
+    "amazonUrl": "",
+    "rakutenUrl": "",
+    "tags": [],
+    "priority": 80,
+    "isPublished": true
+  },
+  {
+    "id": "prod_017",
+    "amazonUrl": "",
+    "rakutenUrl": "",
+    "tags": []
+  }
+]
