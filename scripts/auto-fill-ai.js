@@ -13,7 +13,7 @@
 
 // ===== 設定項目 =====
 const CONFIG = {
-  SHEET_NAME: 'シート1', // 商品データが入っているシート名
+  SHEET_NAME: '商品管理', // 商品データが入っているシート名
   PRODUCT_URL_COLUMN: 15, // O列
 
   // GitHub連携設定（GitHubにプッシュしない）
