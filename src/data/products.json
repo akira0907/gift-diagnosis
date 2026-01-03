@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-03",
+  "lastUpdated": "2026-01-03T16:21:34.433944Z",
   "products": [
     {
       "id": "prod_001",
@@ -38,9 +38,9 @@
         "ロクシタン"
       ],
       "priority": 95,
-      "isPublished": false,
-      "createdAt": "2026-01-03T16:14:05.741437",
-      "updatedAt": "2026-01-03T16:14:05.741452"
+      "isPublished": true,
+      "createdAt": "2026-01-03T16:21:34.433571Z",
+      "updatedAt": "2026-01-03T16:21:34.433585Z"
     },
     {
       "id": "prod_002",
@@ -77,9 +77,9 @@
         "パーカー"
       ],
       "priority": 88,
-      "isPublished": false,
-      "createdAt": "2026-01-03T16:14:05.741475",
-      "updatedAt": "2026-01-03T16:14:05.741477"
+      "isPublished": true,
+      "createdAt": "2026-01-03T16:21:34.433605Z",
+      "updatedAt": "2026-01-03T16:21:34.433607Z"
     },
     {
       "id": "prod_014",
@@ -112,9 +112,9 @@
         "ヨックモック"
       ],
       "priority": 80,
-      "isPublished": false,
-      "createdAt": "2026-01-03T16:14:05.741495",
-      "updatedAt": "2026-01-03T16:14:05.741496"
+      "isPublished": true,
+      "createdAt": "2026-01-03T16:21:34.433623Z",
+      "updatedAt": "2026-01-03T16:21:34.433624Z"
     },
     {
       "id": "prod_008",
@@ -154,9 +154,9 @@
         "女性向け"
       ],
       "priority": 85,
-      "isPublished": false,
-      "createdAt": "2026-01-03T16:14:05.741512",
-      "updatedAt": "2026-01-03T16:14:05.741514"
+      "isPublished": true,
+      "createdAt": "2026-01-03T16:21:34.433644Z",
+      "updatedAt": "2026-01-03T16:21:34.433646Z"
     },
     {
       "id": "prod_010",
@@ -194,9 +194,9 @@
         "ゴディバ"
       ],
       "priority": 86,
-      "isPublished": false,
-      "createdAt": "2026-01-03T16:14:05.741528",
-      "updatedAt": "2026-01-03T16:14:05.741530"
+      "isPublished": true,
+      "createdAt": "2026-01-03T16:21:34.433663Z",
+      "updatedAt": "2026-01-03T16:21:34.433664Z"
     },
     {
       "id": "prod_003",
@@ -237,9 +237,9 @@
         "無印良品"
       ],
       "priority": 88,
-      "isPublished": false,
-      "createdAt": "2026-01-03T16:14:05.741545",
-      "updatedAt": "2026-01-03T16:14:05.741547"
+      "isPublished": true,
+      "createdAt": "2026-01-03T16:21:34.433680Z",
+      "updatedAt": "2026-01-03T16:21:34.433682Z"
     },
     {
       "id": "prod_005",
@@ -278,9 +278,9 @@
         "選べる"
       ],
       "priority": 80,
-      "isPublished": false,
-      "createdAt": "2026-01-03T16:14:05.741562",
-      "updatedAt": "2026-01-03T16:14:05.741564"
+      "isPublished": true,
+      "createdAt": "2026-01-03T16:21:34.433697Z",
+      "updatedAt": "2026-01-03T16:21:34.433701Z"
     },
     {
       "id": "prod_006",
@@ -317,9 +317,9 @@
         "THANN"
       ],
       "priority": 87,
-      "isPublished": false,
-      "createdAt": "2026-01-03T16:14:05.741577",
-      "updatedAt": "2026-01-03T16:14:05.741579"
+      "isPublished": true,
+      "createdAt": "2026-01-03T16:21:34.433719Z",
+      "updatedAt": "2026-01-03T16:21:34.433721Z"
     },
     {
       "id": "prod_011",
@@ -359,9 +359,9 @@
         "プリザーブド"
       ],
       "priority": 83,
-      "isPublished": false,
-      "createdAt": "2026-01-03T16:14:05.741592",
-      "updatedAt": "2026-01-03T16:14:05.741594"
+      "isPublished": true,
+      "createdAt": "2026-01-03T16:21:34.433739Z",
+      "updatedAt": "2026-01-03T16:21:34.433741Z"
     },
     {
       "id": "prod_015",
@@ -400,9 +400,9 @@
         "飲み比べ"
       ],
       "priority": 81,
-      "isPublished": false,
-      "createdAt": "2026-01-03T16:14:05.741610",
-      "updatedAt": "2026-01-03T16:14:05.741612"
+      "isPublished": true,
+      "createdAt": "2026-01-03T16:21:34.433760Z",
+      "updatedAt": "2026-01-03T16:21:34.433762Z"
     },
     {
       "id": "prod_004",
@@ -439,9 +439,9 @@
         "ノイズキャンセリング"
       ],
       "priority": 92,
-      "isPublished": false,
-      "createdAt": "2026-01-03T16:14:05.741628",
-      "updatedAt": "2026-01-03T16:14:05.741629"
+      "isPublished": true,
+      "createdAt": "2026-01-03T16:21:34.433777Z",
+      "updatedAt": "2026-01-03T16:21:34.433779Z"
     },
     {
       "id": "prod_012",
@@ -481,9 +481,9 @@
         "タケオキクチ"
       ],
       "priority": 79,
-      "isPublished": false,
-      "createdAt": "2026-01-03T16:14:05.741642",
-      "updatedAt": "2026-01-03T16:14:05.741644"
+      "isPublished": true,
+      "createdAt": "2026-01-03T16:21:34.433797Z",
+      "updatedAt": "2026-01-03T16:21:34.433799Z"
     },
     {
       "id": "prod_007",
@@ -518,9 +518,9 @@
         "栃木レザー"
       ],
       "priority": 84,
-      "isPublished": false,
-      "createdAt": "2026-01-03T16:14:05.741658",
-      "updatedAt": "2026-01-03T16:14:05.741660"
+      "isPublished": true,
+      "createdAt": "2026-01-03T16:21:34.433813Z",
+      "updatedAt": "2026-01-03T16:21:34.433815Z"
     },
     {
       "id": "prod_100",
@@ -559,9 +559,9 @@
         "木製"
       ],
       "priority": 95,
-      "isPublished": false,
-      "createdAt": "2026-01-03T16:14:05.741676",
-      "updatedAt": "2026-01-03T16:14:05.741677"
+      "isPublished": true,
+      "createdAt": "2026-01-03T16:21:34.433835Z",
+      "updatedAt": "2026-01-03T16:21:34.433837Z"
     },
     {
       "id": "prod_009",
@@ -597,9 +597,9 @@
         "Xiaomi"
       ],
       "priority": 91,
-      "isPublished": false,
-      "createdAt": "2026-01-03T16:14:05.741693",
-      "updatedAt": "2026-01-03T16:14:05.741694"
+      "isPublished": true,
+      "createdAt": "2026-01-03T16:21:34.433853Z",
+      "updatedAt": "2026-01-03T16:21:34.433854Z"
     },
     {
       "id": "prod_013",
@@ -636,9 +636,9 @@
         "SOW EXPERIENCE"
       ],
       "priority": 88,
-      "isPublished": false,
-      "createdAt": "2026-01-03T16:14:05.741724",
-      "updatedAt": "2026-01-03T16:14:05.741726"
+      "isPublished": true,
+      "createdAt": "2026-01-03T16:21:34.433887Z",
+      "updatedAt": "2026-01-03T16:21:34.433892Z"
     },
     {
       "id": "prod_016",
@@ -668,9 +668,9 @@
         "AYURA"
       ],
       "priority": 85,
-      "isPublished": false,
-      "createdAt": "2026-01-03T16:14:05.741741",
-      "updatedAt": "2026-01-03T16:14:05.741743"
+      "isPublished": true,
+      "createdAt": "2026-01-03T16:21:34.433910Z",
+      "updatedAt": "2026-01-03T16:21:34.433911Z"
     },
     {
       "id": "prod_101",
@@ -699,8 +699,8 @@
       ],
       "priority": 85,
       "isPublished": true,
-      "createdAt": "2026-01-03T16:14:05.741753",
-      "updatedAt": "2026-01-03T16:14:05.741755"
+      "createdAt": "2026-01-03T16:21:34.433924Z",
+      "updatedAt": "2026-01-03T16:21:34.433928Z"
     }
   ]
 }
