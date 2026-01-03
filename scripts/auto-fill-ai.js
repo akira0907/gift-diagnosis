@@ -472,8 +472,13 @@ function pushToGitHub() {
   }
 
   try {
+    Logger.log('pushToGitHub: 開始');
     const spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
+    Logger.log('pushToGitHub: spreadsheet取得成功');
+
     const sheet = spreadsheet.getSheetByName(CONFIG.SHEET_NAME);
+    Logger.log('pushToGitHub: sheet = ' + sheet);
+    Logger.log('pushToGitHub: CONFIG.SHEET_NAME = ' + CONFIG.SHEET_NAME);
 
     if (!sheet) {
       ui.alert('エラー',
@@ -483,8 +488,10 @@ function pushToGitHub() {
       return;
     }
 
+    Logger.log('pushToGitHub: sheetチェック完了、convertSheetToCSV呼び出し前');
     // 1. CSVとして保存
     const csvContent = convertSheetToCSV(sheet);
+    Logger.log('pushToGitHub: CSV変換完了');
     const csvResult = uploadToGitHub(csvContent, token, CONFIG.FILE_PATH);
 
     if (!csvResult.success) {
@@ -515,12 +522,18 @@ function pushToGitHub() {
 }
 
 function convertSheetToCSV(sheet) {
+  Logger.log('convertSheetToCSV: 呼び出し開始');
+  Logger.log('convertSheetToCSV: sheet = ' + sheet);
+  Logger.log('convertSheetToCSV: typeof sheet = ' + typeof sheet);
+
   if (!sheet) {
     Logger.log('convertSheetToCSV: sheet is null or undefined');
     throw new Error('シートオブジェクトが無効です');
   }
 
+  Logger.log('convertSheetToCSV: getDataRange()呼び出し前');
   const data = sheet.getDataRange().getValues();
+  Logger.log('convertSheetToCSV: getDataRange()呼び出し成功');
   const csv = [];
 
   for (let i = 0; i < data.length; i++) {
