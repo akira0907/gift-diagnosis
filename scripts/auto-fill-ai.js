@@ -617,10 +617,41 @@ function convertSheetToJSON(sheet) {
       }
     }
 
+    // affiliateLinks配列を生成（amazonUrlとrakutenUrlから）
+    const affiliateLinks = [];
+    if (product.amazonUrl) {
+      affiliateLinks.push({
+        provider: 'amazon',
+        url: product.amazonUrl
+      });
+      delete product.amazonUrl;
+    }
+    if (product.rakutenUrl) {
+      affiliateLinks.push({
+        provider: 'rakuten',
+        url: product.rakutenUrl
+      });
+      delete product.rakutenUrl;
+    }
+    product.affiliateLinks = affiliateLinks;
+
+    // タイムスタンプを追加
+    const timestamp = new Date().toISOString();
+    product.createdAt = product.createdAt || timestamp;
+    product.updatedAt = timestamp;
+
     products.push(product);
   }
 
-  return JSON.stringify(products, null, 2);
+  // ProductsData形式でラップ
+  const now = new Date();
+  const productsData = {
+    version: '1.0.0',
+    lastUpdated: Utilities.formatDate(now, 'Asia/Tokyo', 'yyyy-MM-dd'),
+    products: products
+  };
+
+  return JSON.stringify(productsData, null, 2);
 }
 
 function uploadToGitHub(content, token, filePath) {
