@@ -13,6 +13,7 @@
 
 // ===== 設定項目 =====
 const CONFIG = {
+  SHEET_NAME: 'シート1', // 商品データが入っているシート名
   PRODUCT_URL_COLUMN: 15, // O列
 
   // GitHub連携設定（GitHubにプッシュしない）
@@ -88,7 +89,16 @@ function autoFillSelectedRowWithAI() {
   const ui = SpreadsheetApp.getUi();
 
   try {
-    const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+    const spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
+    const sheet = spreadsheet.getSheetByName(CONFIG.SHEET_NAME);
+
+    if (!sheet) {
+      ui.alert('エラー',
+        'シート「' + CONFIG.SHEET_NAME + '」が見つかりません。\n\n' +
+        'CONFIGのSHEET_NAMEを正しいシート名に設定してください。',
+        ui.ButtonSet.OK);
+      return;
+    }
     const row = sheet.getActiveRange().getRow();
 
     if (row === 1) {
@@ -130,7 +140,16 @@ function autoFillAllEmptyRowsWithAI() {
   if (response !== ui.Button.YES) return;
 
   try {
-    const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+    const spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
+    const sheet = spreadsheet.getSheetByName(CONFIG.SHEET_NAME);
+
+    if (!sheet) {
+      ui.alert('エラー',
+        'シート「' + CONFIG.SHEET_NAME + '」が見つかりません。\n\n' +
+        'CONFIGのSHEET_NAMEを正しいシート名に設定してください。',
+        ui.ButtonSet.OK);
+      return;
+    }
     const lastRow = sheet.getLastRow();
     let count = 0;
     const results = [];
@@ -453,7 +472,16 @@ function pushToGitHub() {
   }
 
   try {
-    const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+    const spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
+    const sheet = spreadsheet.getSheetByName(CONFIG.SHEET_NAME);
+
+    if (!sheet) {
+      ui.alert('エラー',
+        'シート「' + CONFIG.SHEET_NAME + '」が見つかりません。\n\n' +
+        'CONFIGのSHEET_NAMEを正しいシート名に設定してください。',
+        ui.ButtonSet.OK);
+      return;
+    }
 
     // 1. CSVとして保存
     const csvContent = convertSheetToCSV(sheet);
@@ -487,6 +515,11 @@ function pushToGitHub() {
 }
 
 function convertSheetToCSV(sheet) {
+  if (!sheet) {
+    Logger.log('convertSheetToCSV: sheet is null or undefined');
+    throw new Error('シートオブジェクトが無効です');
+  }
+
   const data = sheet.getDataRange().getValues();
   const csv = [];
 
@@ -510,6 +543,11 @@ function convertSheetToCSV(sheet) {
  * スプレッドシートをJSON形式に変換（診断アプリ用）
  */
 function convertSheetToJSON(sheet) {
+  if (!sheet) {
+    Logger.log('convertSheetToJSON: sheet is null or undefined');
+    throw new Error('シートオブジェクトが無効です');
+  }
+
   const data = sheet.getDataRange().getValues();
 
   // ヘッダー行を取得
