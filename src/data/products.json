@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-03",
+  "lastUpdated": "2026-01-03T16:06:24.357707Z",
   "products": [
     {
       "id": "prod_001",
@@ -24,7 +24,12 @@
         "お礼"
       ],
       "budgetRange": "〜3,000円",
-      "rakutenUrl": "",
+      "affiliateLinks": [
+        {
+          "provider": "amazon",
+          "url": "https://www.amazon.co.jp/dp/B0DJMMJSPZ"
+        }
+      ],
       "tags": [
         "コスメ",
         "ハンドクリーム",
@@ -34,14 +39,8 @@
       ],
       "priority": 90,
       "isPublished": true,
-      "affiliateLinks": [
-        {
-          "provider": "amazon",
-          "url": "https://www.amazon.co.jp/dp/B0DJMMJSPZ"
-        }
-      ],
-      "createdAt": "2026-01-03T06:46:48.524Z",
-      "updatedAt": "2026-01-03T06:46:48.524Z"
+      "createdAt": "2026-01-03T16:06:24.356811Z",
+      "updatedAt": "2026-01-03T16:06:24.357278Z"
     },
     {
       "id": "prod_002",
@@ -64,7 +63,12 @@
         "退職祝い"
       ],
       "budgetRange": "〜3,000円",
-      "rakutenUrl": "",
+      "affiliateLinks": [
+        {
+          "provider": "amazon",
+          "url": "https://www.amazon.co.jp/dp/B01KZHW0Z0"
+        }
+      ],
       "tags": [
         "ビジネス",
         "文房具",
@@ -74,14 +78,8 @@
       ],
       "priority": 85,
       "isPublished": true,
-      "affiliateLinks": [
-        {
-          "provider": "amazon",
-          "url": "https://www.amazon.co.jp/dp/B01KZHW0Z0"
-        }
-      ],
-      "createdAt": "2026-01-03T06:46:48.527Z",
-      "updatedAt": "2026-01-03T06:46:48.527Z"
+      "createdAt": "2026-01-03T16:06:24.357316Z",
+      "updatedAt": "2026-01-03T16:06:24.357319Z"
     },
     {
       "id": "prod_014",
@@ -101,7 +99,12 @@
         "誕生日"
       ],
       "budgetRange": "〜3,000円",
-      "rakutenUrl": "",
+      "affiliateLinks": [
+        {
+          "provider": "amazon",
+          "url": "https://www.amazon.co.jp/s?k=ヨックモック+シガール+ギフト"
+        }
+      ],
       "tags": [
         "グルメ",
         "お菓子",
@@ -110,14 +113,8 @@
       ],
       "priority": 75,
       "isPublished": true,
-      "affiliateLinks": [
-        {
-          "provider": "amazon",
-          "url": "https://www.amazon.co.jp/s?k=ヨックモック+シガール+ギフト"
-        }
-      ],
-      "createdAt": "2026-01-03T06:46:48.527Z",
-      "updatedAt": "2026-01-03T06:46:48.527Z"
+      "createdAt": "2026-01-03T16:06:24.357339Z",
+      "updatedAt": "2026-01-03T16:06:24.357341Z"
     },
     {
       "id": "prod_008",
@@ -140,14 +137,6 @@
         "母の日"
       ],
       "budgetRange": "3,000〜5,000円",
-      "tags": [
-        "コスメ",
-        "入浴剤",
-        "リラックス",
-        "女性向け"
-      ],
-      "priority": 82,
-      "isPublished": true,
       "affiliateLinks": [
         {
           "provider": "amazon",
@@ -158,8 +147,16 @@
           "url": "https://search.rakuten.co.jp/search/mall/入浴剤+ギフト+3000円/"
         }
       ],
-      "createdAt": "2026-01-03T06:46:48.527Z",
-      "updatedAt": "2026-01-03T06:46:48.527Z"
+      "tags": [
+        "コスメ",
+        "入浴剤",
+        "リラックス",
+        "女性向け"
+      ],
+      "priority": 82,
+      "isPublished": true,
+      "createdAt": "2026-01-03T16:06:24.357365Z",
+      "updatedAt": "2026-01-03T16:06:24.357367Z"
     },
     {
       "id": "prod_010",
@@ -183,7 +180,12 @@
         "誕生日"
       ],
       "budgetRange": "3,000〜5,000円",
-      "rakutenUrl": "",
+      "affiliateLinks": [
+        {
+          "provider": "amazon",
+          "url": "https://www.amazon.co.jp/s?rh=n%3A4522771051%2Cp_89%3AGODIVA"
+        }
+      ],
       "tags": [
         "グルメ",
         "チョコレート",
@@ -193,14 +195,8 @@
       ],
       "priority": 86,
       "isPublished": true,
-      "affiliateLinks": [
-        {
-          "provider": "amazon",
-          "url": "https://www.amazon.co.jp/s?rh=n%3A4522771051%2Cp_89%3AGODIVA"
-        }
-      ],
-      "createdAt": "2026-01-03T06:46:48.528Z",
-      "updatedAt": "2026-01-03T06:46:48.528Z"
+      "createdAt": "2026-01-03T16:06:24.357385Z",
+      "updatedAt": "2026-01-03T16:06:24.357387Z"
     },
     {
       "id": "prod_003",
@@ -223,15 +219,6 @@
         "お礼"
       ],
       "budgetRange": "3,000〜5,000円",
-      "tags": [
-        "インテリア",
-        "アロマ",
-        "女性向け",
-        "リラックス",
-        "無印良品"
-      ],
-      "priority": 88,
-      "isPublished": true,
       "affiliateLinks": [
         {
           "provider": "amazon",
@@ -242,8 +229,17 @@
           "url": "https://search.rakuten.co.jp/search/mall/無印良品+アロマディフューザー/"
         }
       ],
-      "createdAt": "2026-01-03T06:46:48.528Z",
-      "updatedAt": "2026-01-03T06:46:48.528Z"
+      "tags": [
+        "インテリア",
+        "アロマ",
+        "女性向け",
+        "リラックス",
+        "無印良品"
+      ],
+      "priority": 88,
+      "isPublished": true,
+      "createdAt": "2026-01-03T16:06:24.357406Z",
+      "updatedAt": "2026-01-03T16:06:24.357408Z"
     },
     {
       "id": "prod_005",
@@ -265,14 +261,6 @@
         "出産祝い"
       ],
       "budgetRange": "5,000〜10,000円",
-      "tags": [
-        "グルメ",
-        "カタログギフト",
-        "万人向け",
-        "選べる"
-      ],
-      "priority": 80,
-      "isPublished": true,
       "affiliateLinks": [
         {
           "provider": "amazon",
@@ -283,8 +271,16 @@
           "url": "https://search.rakuten.co.jp/search/mall/グルメカタログギフト+5000円/"
         }
       ],
-      "createdAt": "2026-01-03T06:46:48.528Z",
-      "updatedAt": "2026-01-03T06:46:48.528Z"
+      "tags": [
+        "グルメ",
+        "カタログギフト",
+        "万人向け",
+        "選べる"
+      ],
+      "priority": 80,
+      "isPublished": true,
+      "createdAt": "2026-01-03T16:06:24.357428Z",
+      "updatedAt": "2026-01-03T16:06:24.357430Z"
     },
     {
       "id": "prod_006",
@@ -307,7 +303,12 @@
         "記念日"
       ],
       "budgetRange": "5,000〜10,000円",
-      "rakutenUrl": "",
+      "affiliateLinks": [
+        {
+          "provider": "amazon",
+          "url": "https://www.amazon.co.jp/dp/B074PWCZZY"
+        }
+      ],
       "tags": [
         "コスメ",
         "オーガニック",
@@ -317,14 +318,8 @@
       ],
       "priority": 87,
       "isPublished": true,
-      "affiliateLinks": [
-        {
-          "provider": "amazon",
-          "url": "https://www.amazon.co.jp/dp/B074PWCZZY"
-        }
-      ],
-      "createdAt": "2026-01-03T06:46:48.528Z",
-      "updatedAt": "2026-01-03T06:46:48.528Z"
+      "createdAt": "2026-01-03T16:06:24.357451Z",
+      "updatedAt": "2026-01-03T16:06:24.357453Z"
     },
     {
       "id": "prod_011",
@@ -346,15 +341,6 @@
         "お礼"
       ],
       "budgetRange": "5,000〜10,000円",
-      "tags": [
-        "花",
-        "フラワー",
-        "女性向け",
-        "華やか",
-        "プリザーブド"
-      ],
-      "priority": 83,
-      "isPublished": true,
       "affiliateLinks": [
         {
           "provider": "amazon",
@@ -365,8 +351,17 @@
           "url": "https://search.rakuten.co.jp/search/mall/プリザーブドフラワー+ギフト/"
         }
       ],
-      "createdAt": "2026-01-03T06:46:48.528Z",
-      "updatedAt": "2026-01-03T06:46:48.528Z"
+      "tags": [
+        "花",
+        "フラワー",
+        "女性向け",
+        "華やか",
+        "プリザーブド"
+      ],
+      "priority": 83,
+      "isPublished": true,
+      "createdAt": "2026-01-03T16:06:24.357473Z",
+      "updatedAt": "2026-01-03T16:06:24.357476Z"
     },
     {
       "id": "prod_015",
@@ -387,15 +382,6 @@
         "退職祝い"
       ],
       "budgetRange": "5,000〜10,000円",
-      "tags": [
-        "グルメ",
-        "日本酒",
-        "お酒",
-        "男性向け",
-        "飲み比べ"
-      ],
-      "priority": 81,
-      "isPublished": true,
       "affiliateLinks": [
         {
           "provider": "amazon",
@@ -406,8 +392,17 @@
           "url": "https://search.rakuten.co.jp/search/mall/日本酒+飲み比べ/"
         }
       ],
-      "createdAt": "2026-01-03T06:46:48.528Z",
-      "updatedAt": "2026-01-03T06:46:48.528Z"
+      "tags": [
+        "グルメ",
+        "日本酒",
+        "お酒",
+        "男性向け",
+        "飲み比べ"
+      ],
+      "priority": 81,
+      "isPublished": true,
+      "createdAt": "2026-01-03T16:06:24.357509Z",
+      "updatedAt": "2026-01-03T16:06:24.357511Z"
     },
     {
       "id": "prod_004",
@@ -430,7 +425,12 @@
         "記念日"
       ],
       "budgetRange": "5,000〜10,000円",
-      "rakutenUrl": "",
+      "affiliateLinks": [
+        {
+          "provider": "amazon",
+          "url": "https://www.amazon.co.jp/s?k=Anker+Soundcore+P40i"
+        }
+      ],
       "tags": [
         "ガジェット",
         "イヤホン",
@@ -440,14 +440,8 @@
       ],
       "priority": 92,
       "isPublished": true,
-      "affiliateLinks": [
-        {
-          "provider": "amazon",
-          "url": "https://www.amazon.co.jp/s?k=Anker+Soundcore+P40i"
-        }
-      ],
-      "createdAt": "2026-01-03T06:46:48.528Z",
-      "updatedAt": "2026-01-03T06:46:48.528Z"
+      "createdAt": "2026-01-03T16:06:24.357529Z",
+      "updatedAt": "2026-01-03T16:06:24.357531Z"
     },
     {
       "id": "prod_012",
@@ -469,15 +463,6 @@
         "クリスマス"
       ],
       "budgetRange": "5,000〜10,000円",
-      "tags": [
-        "ファッション",
-        "ネクタイ",
-        "ビジネス",
-        "男性向け",
-        "タケオキクチ"
-      ],
-      "priority": 79,
-      "isPublished": true,
       "affiliateLinks": [
         {
           "provider": "amazon",
@@ -488,8 +473,17 @@
           "url": "https://search.rakuten.co.jp/search/mall/タケオキクチ+ネクタイ+ギフト/"
         }
       ],
-      "createdAt": "2026-01-03T06:46:48.528Z",
-      "updatedAt": "2026-01-03T06:46:48.528Z"
+      "tags": [
+        "ファッション",
+        "ネクタイ",
+        "ビジネス",
+        "男性向け",
+        "タケオキクチ"
+      ],
+      "priority": 79,
+      "isPublished": true,
+      "createdAt": "2026-01-03T16:06:24.357550Z",
+      "updatedAt": "2026-01-03T16:06:24.357552Z"
     },
     {
       "id": "prod_007",
@@ -510,7 +504,12 @@
         "父の日"
       ],
       "budgetRange": "10,000〜20,000円",
-      "rakutenUrl": "",
+      "affiliateLinks": [
+        {
+          "provider": "amazon",
+          "url": "https://www.amazon.co.jp/dp/B0B516KQSN"
+        }
+      ],
       "tags": [
         "ファッション",
         "財布",
@@ -520,14 +519,8 @@
       ],
       "priority": 84,
       "isPublished": true,
-      "affiliateLinks": [
-        {
-          "provider": "amazon",
-          "url": "https://www.amazon.co.jp/dp/B0B516KQSN"
-        }
-      ],
-      "createdAt": "2026-01-03T06:46:48.528Z",
-      "updatedAt": "2026-01-03T06:46:48.528Z"
+      "createdAt": "2026-01-03T16:06:24.357568Z",
+      "updatedAt": "2026-01-03T16:06:24.357570Z"
     },
     {
       "id": "prod_100",
@@ -550,7 +543,12 @@
         "クリスマス"
       ],
       "budgetRange": "10,000〜20,000円",
-      "amazonUrl": "",
+      "affiliateLinks": [
+        {
+          "provider": "rakuten",
+          "url": "https://room.rakuten.co.jp/room_lifestyleselect/1700254827652879"
+        }
+      ],
       "tags": [
         "インテリア",
         "収納",
@@ -562,14 +560,8 @@
       ],
       "priority": 95,
       "isPublished": true,
-      "affiliateLinks": [
-        {
-          "provider": "rakuten",
-          "url": "https://room.rakuten.co.jp/room_lifestyleselect/1700254827652879"
-        }
-      ],
-      "createdAt": "2026-01-03T06:46:48.528Z",
-      "updatedAt": "2026-01-03T06:46:48.528Z"
+      "createdAt": "2026-01-03T16:06:24.357592Z",
+      "updatedAt": "2026-01-03T16:06:24.357594Z"
     },
     {
       "id": "prod_009",
@@ -592,7 +584,12 @@
         "記念日"
       ],
       "budgetRange": "10,000〜20,000円",
-      "rakutenUrl": "",
+      "affiliateLinks": [
+        {
+          "provider": "amazon",
+          "url": "https://www.amazon.co.jp/stores/Xiaomiシャオミ/page/8139F517-E56F-45ED-869F-EE5B2780ED88"
+        }
+      ],
       "tags": [
         "ガジェット",
         "スマートウォッチ",
@@ -601,14 +598,8 @@
       ],
       "priority": 91,
       "isPublished": true,
-      "affiliateLinks": [
-        {
-          "provider": "amazon",
-          "url": "https://www.amazon.co.jp/stores/Xiaomiシャオミ/page/8139F517-E56F-45ED-869F-EE5B2780ED88"
-        }
-      ],
-      "createdAt": "2026-01-03T06:46:48.528Z",
-      "updatedAt": "2026-01-03T06:46:48.528Z"
+      "createdAt": "2026-01-03T16:06:24.357611Z",
+      "updatedAt": "2026-01-03T16:06:24.357613Z"
     },
     {
       "id": "prod_013",
@@ -631,7 +622,12 @@
         "結婚祝い"
       ],
       "budgetRange": "30,000円〜",
-      "rakutenUrl": "",
+      "affiliateLinks": [
+        {
+          "provider": "amazon",
+          "url": "https://www.amazon.co.jp/dp/B07Z4M396P"
+        }
+      ],
       "tags": [
         "体験",
         "ディナー",
@@ -641,58 +637,40 @@
       ],
       "priority": 88,
       "isPublished": true,
-      "affiliateLinks": [
-        {
-          "provider": "amazon",
-          "url": "https://www.amazon.co.jp/dp/B07Z4M396P"
-        }
-      ],
-      "createdAt": "2026-01-03T06:46:48.528Z",
-      "updatedAt": "2026-01-03T06:46:48.528Z"
+      "createdAt": "2026-01-03T16:06:24.357656Z",
+      "updatedAt": "2026-01-03T16:06:24.357659Z"
     },
     {
       "id": "prod_016",
-      "name": "メディテーションバスｔ",
-      "description": "メディテーションバスｔ",
+      "name": "AYURA メディテーションバスt",
+      "description": "心を穏やかに整えるアロマティックハーブの香りが広がる入浴剤。一日の疲れを癒す贅沢なバスタイム。",
       "price": 2200,
-      "imageUrl": "/images/products/product.jpg",
-      "category": "雑貨",
+      "imageUrl": "/images/products/meditation-bath.jpg",
+      "category": "コスメ",
       "recipients": [
         "彼女",
-        "彼氏",
-        "夫",
         "妻",
-        "友人女性",
-        "友人男性"
+        "母",
+        "友人女性"
       ],
       "occasions": [
         "お礼",
-        "退職祝い"
+        "誕生日",
+        "母の日"
       ],
-      "budgetRange": "~3,000円",
-      "amazonUrl": "",
-      "rakutenUrl": "",
+      "budgetRange": "〜3,000円",
+      "affiliateLinks": [],
       "tags": [
-        "雑貨",
-        "プチギフト",
-        "メディテーションバスｔ"
+        "コスメ",
+        "入浴剤",
+        "アロマ",
+        "リラックス",
+        "AYURA"
       ],
-      "priority": 80,
+      "priority": 85,
       "isPublished": true,
-      "affiliateLinks": [],
-      "createdAt": "2026-01-03T06:46:48.528Z",
-      "updatedAt": "2026-01-03T06:46:48.528Z"
-    },
-    {
-      "id": "prod_017",
-      "name": "パナメラ",
-      "description": "ホームパーティのお呼ばれに最適な美味しいワイン。樽がきいたシャルドネ！",
-      "amazonUrl": "",
-      "rakutenUrl": "",
-      "tags": [],
-      "affiliateLinks": [],
-      "createdAt": "2026-01-03T06:46:48.528Z",
-      "updatedAt": "2026-01-03T06:46:48.528Z"
+      "createdAt": "2026-01-03T16:06:24.357685Z",
+      "updatedAt": "2026-01-03T16:06:24.357687Z"
     }
   ]
 }
