@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-03T16:21:34.433944Z",
+  "lastUpdated": "2026-01-03T16:21:40.053248Z",
   "products": [
     {
       "id": "prod_001",
@@ -39,8 +39,8 @@
       ],
       "priority": 95,
       "isPublished": true,
-      "createdAt": "2026-01-03T16:21:34.433571Z",
-      "updatedAt": "2026-01-03T16:21:34.433585Z"
+      "createdAt": "2026-01-03T16:21:40.052850Z",
+      "updatedAt": "2026-01-03T16:21:40.052864Z"
     },
     {
       "id": "prod_002",
@@ -78,8 +78,8 @@
       ],
       "priority": 88,
       "isPublished": true,
-      "createdAt": "2026-01-03T16:21:34.433605Z",
-      "updatedAt": "2026-01-03T16:21:34.433607Z"
+      "createdAt": "2026-01-03T16:21:40.052909Z",
+      "updatedAt": "2026-01-03T16:21:40.052914Z"
     },
     {
       "id": "prod_014",
@@ -113,8 +113,8 @@
       ],
       "priority": 80,
       "isPublished": true,
-      "createdAt": "2026-01-03T16:21:34.433623Z",
-      "updatedAt": "2026-01-03T16:21:34.433624Z"
+      "createdAt": "2026-01-03T16:21:40.052931Z",
+      "updatedAt": "2026-01-03T16:21:40.052933Z"
     },
     {
       "id": "prod_008",
@@ -155,8 +155,8 @@
       ],
       "priority": 85,
       "isPublished": true,
-      "createdAt": "2026-01-03T16:21:34.433644Z",
-      "updatedAt": "2026-01-03T16:21:34.433646Z"
+      "createdAt": "2026-01-03T16:21:40.052955Z",
+      "updatedAt": "2026-01-03T16:21:40.052957Z"
     },
     {
       "id": "prod_010",
@@ -195,8 +195,8 @@
       ],
       "priority": 86,
       "isPublished": true,
-      "createdAt": "2026-01-03T16:21:34.433663Z",
-      "updatedAt": "2026-01-03T16:21:34.433664Z"
+      "createdAt": "2026-01-03T16:21:40.052973Z",
+      "updatedAt": "2026-01-03T16:21:40.052974Z"
     },
     {
       "id": "prod_003",
@@ -238,8 +238,8 @@
       ],
       "priority": 88,
       "isPublished": true,
-      "createdAt": "2026-01-03T16:21:34.433680Z",
-      "updatedAt": "2026-01-03T16:21:34.433682Z"
+      "createdAt": "2026-01-03T16:21:40.052990Z",
+      "updatedAt": "2026-01-03T16:21:40.052992Z"
     },
     {
       "id": "prod_005",
@@ -279,8 +279,8 @@
       ],
       "priority": 80,
       "isPublished": true,
-      "createdAt": "2026-01-03T16:21:34.433697Z",
-      "updatedAt": "2026-01-03T16:21:34.433701Z"
+      "createdAt": "2026-01-03T16:21:40.053010Z",
+      "updatedAt": "2026-01-03T16:21:40.053012Z"
     },
     {
       "id": "prod_006",
@@ -318,8 +318,8 @@
       ],
       "priority": 87,
       "isPublished": true,
-      "createdAt": "2026-01-03T16:21:34.433719Z",
-      "updatedAt": "2026-01-03T16:21:34.433721Z"
+      "createdAt": "2026-01-03T16:21:40.053029Z",
+      "updatedAt": "2026-01-03T16:21:40.053031Z"
     },
     {
       "id": "prod_011",
@@ -360,8 +360,8 @@
       ],
       "priority": 83,
       "isPublished": true,
-      "createdAt": "2026-01-03T16:21:34.433739Z",
-      "updatedAt": "2026-01-03T16:21:34.433741Z"
+      "createdAt": "2026-01-03T16:21:40.053049Z",
+      "updatedAt": "2026-01-03T16:21:40.053051Z"
     },
     {
       "id": "prod_015",
@@ -401,8 +401,8 @@
       ],
       "priority": 81,
       "isPublished": true,
-      "createdAt": "2026-01-03T16:21:34.433760Z",
-      "updatedAt": "2026-01-03T16:21:34.433762Z"
+      "createdAt": "2026-01-03T16:21:40.053069Z",
+      "updatedAt": "2026-01-03T16:21:40.053070Z"
     },
     {
       "id": "prod_004",
@@ -440,8 +440,8 @@
       ],
       "priority": 92,
       "isPublished": true,
-      "createdAt": "2026-01-03T16:21:34.433777Z",
-      "updatedAt": "2026-01-03T16:21:34.433779Z"
+      "createdAt": "2026-01-03T16:21:40.053086Z",
+      "updatedAt": "2026-01-03T16:21:40.053088Z"
     },
     {
       "id": "prod_012",
@@ -482,8 +482,8 @@
       ],
       "priority": 79,
       "isPublished": true,
-      "createdAt": "2026-01-03T16:21:34.433797Z",
-      "updatedAt": "2026-01-03T16:21:34.433799Z"
+      "createdAt": "2026-01-03T16:21:40.053105Z",
+      "updatedAt": "2026-01-03T16:21:40.053107Z"
     },
     {
       "id": "prod_007",
@@ -519,8 +519,8 @@
       ],
       "priority": 84,
       "isPublished": true,
-      "createdAt": "2026-01-03T16:21:34.433813Z",
-      "updatedAt": "2026-01-03T16:21:34.433815Z"
+      "createdAt": "2026-01-03T16:21:40.053121Z",
+      "updatedAt": "2026-01-03T16:21:40.053123Z"
     },
     {
       "id": "prod_100",
@@ -560,8 +560,8 @@
       ],
       "priority": 95,
       "isPublished": true,
-      "createdAt": "2026-01-03T16:21:34.433835Z",
-      "updatedAt": "2026-01-03T16:21:34.433837Z"
+      "createdAt": "2026-01-03T16:21:40.053142Z",
+      "updatedAt": "2026-01-03T16:21:40.053144Z"
     },
     {
       "id": "prod_009",
@@ -598,8 +598,8 @@
       ],
       "priority": 91,
       "isPublished": true,
-      "createdAt": "2026-01-03T16:21:34.433853Z",
-      "updatedAt": "2026-01-03T16:21:34.433854Z"
+      "createdAt": "2026-01-03T16:21:40.053159Z",
+      "updatedAt": "2026-01-03T16:21:40.053161Z"
     },
     {
       "id": "prod_013",
@@ -637,8 +637,8 @@
       ],
       "priority": 88,
       "isPublished": true,
-      "createdAt": "2026-01-03T16:21:34.433887Z",
-      "updatedAt": "2026-01-03T16:21:34.433892Z"
+      "createdAt": "2026-01-03T16:21:40.053195Z",
+      "updatedAt": "2026-01-03T16:21:40.053198Z"
     },
     {
       "id": "prod_016",
@@ -669,8 +669,8 @@
       ],
       "priority": 85,
       "isPublished": true,
-      "createdAt": "2026-01-03T16:21:34.433910Z",
-      "updatedAt": "2026-01-03T16:21:34.433911Z"
+      "createdAt": "2026-01-03T16:21:40.053215Z",
+      "updatedAt": "2026-01-03T16:21:40.053217Z"
     },
     {
       "id": "prod_101",
@@ -699,8 +699,8 @@
       ],
       "priority": 85,
       "isPublished": true,
-      "createdAt": "2026-01-03T16:21:34.433924Z",
-      "updatedAt": "2026-01-03T16:21:34.433928Z"
+      "createdAt": "2026-01-03T16:21:40.053229Z",
+      "updatedAt": "2026-01-03T16:21:40.053233Z"
     }
   ]
 }
