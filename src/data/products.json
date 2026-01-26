@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-26T23:57:26.037691Z",
+  "lastUpdated": "2026-01-26T23:57:37.778514Z",
   "products": [
     {
       "id": "prod_016",
@@ -31,8 +31,8 @@
       ],
       "priority": 85,
       "isPublished": true,
-      "createdAt": "2026-01-26T23:57:26.037612Z",
-      "updatedAt": "2026-01-26T23:57:26.037630Z"
+      "createdAt": "2026-01-26T23:57:37.778460Z",
+      "updatedAt": "2026-01-26T23:57:37.778472Z"
     },
     {
       "id": "prod_101",
@@ -61,8 +61,8 @@
       ],
       "priority": 85,
       "isPublished": true,
-      "createdAt": "2026-01-26T23:57:26.037669Z",
-      "updatedAt": "2026-01-26T23:57:26.037672Z"
+      "createdAt": "2026-01-26T23:57:37.778499Z",
+      "updatedAt": "2026-01-26T23:57:37.778502Z"
     }
   ]
 }
